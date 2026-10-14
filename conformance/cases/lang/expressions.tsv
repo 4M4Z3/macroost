@@ -1,0 +1,195 @@
+C001	1 + 1
+C002	32767 + 1
+C003	32767& + 1
+C004	300 * 200
+C005	300& * 200
+C006	2147483647 + 1
+C007	7 / 2
+C008	7 \ 2
+C009	-7 \ 2
+C010	7 Mod 3
+C011	-7 Mod 3
+C012	7.5 Mod 2
+C013	6.5 \ 2
+C014	2 ^ 10
+C015	-2 ^ 2
+C016	(-8) ^ (1 / 3)
+C017	1 / 0
+C018	0 / 0
+C019	5 \ 0
+C020	CSng(1) / CSng(3)
+C021	CInt(1) / CInt(3)
+C022	1 / 3
+C023	0.1 + 0.2
+C024	1E+15
+C025	1E+16
+C026	123456789012345
+C027	1234567890123456
+C028	0.0001
+C029	0.00001
+C030	0.000001
+C031	1E-10
+C032	-0.5
+C033	CDbl("1,234.5")
+C034	CDbl(" 12 ")
+C035	CDbl("&H10")
+C036	CDbl("1e3")
+C037	CDbl("$5")
+C038	CDbl("abc")
+C039	CDbl("")
+C040	CInt(2.5)
+C041	CInt(3.5)
+C042	CInt(-2.5)
+C043	CInt(32767.5)
+C044	CLng(2.5)
+C045	CLng("1.5")
+C046	Int(-2.5)
+C047	Fix(-2.5)
+C048	Round(2.5)
+C049	Round(3.5)
+C050	Round(2.345, 2)
+C051	Round(2.355, 2)
+C052	Round(-2.5)
+C053	Val("12abc")
+C054	Val("  1 2 3")
+C055	Val("&HFF")
+C056	Val("1e2x")
+C057	Val("")
+C058	"10" + 5
+C059	"10" & 5
+C060	"a" + "b"
+C061	"10" + "5"
+C062	5 + Empty
+C063	"x" & Null
+C064	Null + 1
+C065	True + 1
+C066	True And 3
+C067	5 And 3
+C068	5 Or 3
+C069	5 Xor 3
+C070	Not 0
+C071	Not 5
+C072	True = -1
+C073	"abc" < "abd"
+C074	"a" < "B"
+C075	"10" < "9"
+C076	10 < "9"
+C077	Empty = 0
+C078	Empty = ""
+C079	"abc" Like "a*"
+C080	"abc" Like "A*"
+C081	"a1c" Like "a#c"
+C082	"abc" Like "[a-c]bc"
+C083	"xbc" Like "[!a]bc"
+C084	Len("hello")
+C085	Len(12345)
+C086	Mid("Hello", 2, 3)
+C087	Mid("Hello", 10)
+C088	Left("Hello", 2)
+C089	Right("Hello", 10)
+C090	InStr("abcabc", "c")
+C091	InStr(4, "abcabc", "c")
+C092	InStr(1, "abc", "B", vbTextCompare)
+C093	InStr("abc", "")
+C094	InStrRev("abcabc", "b")
+C095	Replace("aaa", "a", "bb")
+C096	Replace("Hello", "L", "x", , , vbTextCompare)
+C097	Trim("  a b  ")
+C098	UCase("héllo")
+C099	StrComp("a", "B")
+C100	StrComp("a", "B", vbTextCompare)
+C101	StrReverse("abc")
+C102	Space(3) & "|"
+C103	String(3, "ab")
+C104	Chr(65)
+C105	Asc("a")
+C106	Split("a,b,,c", ",")(2)
+C107	UBound(Split("a,b,,c", ","))
+C108	Join(Array(1, 2, 3), "-")
+C109	UBound(Array())
+C110	Hex(255)
+C111	Hex(-1)
+C112	Oct(8)
+C113	Str(5)
+C114	Str(-5)
+C115	CStr(5)
+C116	CStr(True)
+C117	CStr(#1/2/2026#)
+C118	CStr(#1/2/2026 3:04:05 PM#)
+C119	CStr(#3:04:05 AM#)
+C120	CStr(CDate("2026-10-14"))
+C121	#10/14/2026# + 1
+C122	#10/14/2026# - #10/1/2026#
+C123	CDbl(#10/14/2026#)
+C124	DateSerial(2026, 13, 1)
+C125	DateSerial(2026, 2, 30)
+C126	DateAdd("m", 1, #1/31/2026#)
+C127	DateAdd("d", -1, #3/1/2024#)
+C128	DateDiff("d", #1/1/2026#, #12/31/2026#)
+C129	DateDiff("m", #1/31/2026#, #2/1/2026#)
+C130	Weekday(#10/14/2026#)
+C131	Year(#10/14/2026#) & "/" & Month(#10/14/2026#) & "/" & Day(#10/14/2026#)
+C132	MonthName(10)
+C133	WeekdayName(4)
+C134	Format(1234.5, "#,##0.00")
+C135	Format(1234.5, "0")
+C136	Format(0.256, "0.0%")
+C137	Format(-1234.5, "$#,##0.00")
+C138	Format(1234.5, "Currency")
+C139	Format(1234.5, "Standard")
+C140	Format(0.5, "Percent")
+C141	Format(1234.5)
+C142	Format(#10/14/2026#, "yyyy-mm-dd")
+C143	Format(#10/14/2026#, "mmm d, yyyy")
+C144	Format(#10/14/2026#, "dddd")
+C145	Format(#10/14/2026 3:04:05 PM#, "hh:nn AM/PM")
+C146	Format(#10/14/2026#, "Long Date")
+C147	Format(#10/14/2026#, "Short Date")
+C148	Format(5, "00000")
+C149	Format(True, "Yes/No")
+C150	Format("abc", ">")
+C151	FormatNumber(1234.567, 2)
+C152	FormatPercent(0.1234)
+C153	FormatCurrency(-5)
+C154	IsNumeric("12.5")
+C155	IsNumeric("1,000")
+C156	IsNumeric("abc")
+C157	IsNumeric("")
+C158	IsNumeric(Empty)
+C159	IsDate("10/14/2026")
+C160	IsDate("hello")
+C161	IsEmpty(Empty)
+C162	VarType(1)
+C163	VarType(1&)
+C164	VarType(1.5)
+C165	VarType("a")
+C166	VarType(Null)
+C167	TypeName(1)
+C168	TypeName(1&)
+C169	TypeName(1.5)
+C170	TypeName(1@)
+C171	TypeName(Empty)
+C172	TypeName(Null)
+C173	TypeName(Array(1))
+C174	TypeName(&HFFFF)
+C175	&HFFFF
+C176	&HFFFF&
+C177	&H8000
+C178	IIf(1 > 2, "a", "b")
+C179	Choose(2, "a", "b", "c")
+C180	Switch(1 > 2, "a", 2 > 1, "b")
+C181	CBool("True")
+C182	CBool("yes")
+C183	CBool(0.1)
+C184	CByte(255)
+C185	CByte(256)
+C186	CCur(1.23456)
+C187	CCur(1) / 3
+C188	CDate(45000)
+C189	CDate("3:00 PM")
+C190	Abs(-3)
+C191	Sgn(-3)
+C192	Sqr(16)
+C193	Exp(1)
+C194	Log(Exp(2))
+C195	Atn(1) * 4

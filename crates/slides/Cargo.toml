@@ -1,0 +1,12 @@
+[package]
+name = "macroost-slides"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "A VBA-compatible presentation object model (Presentations, Slides, Shapes, TextRange, Table) over a presentation trait."
+
+[dependencies]
+macroost-lang = { path = "../lang" }
+
+[lints]
+workspace = true

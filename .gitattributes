@@ -1,0 +1,3 @@
+# Test macros and recorded results are test data, not source: keep them out of language statistics.
+conformance/** linguist-vendored
+*.bas linguist-detectable=false

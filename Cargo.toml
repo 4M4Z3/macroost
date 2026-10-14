@@ -1,0 +1,23 @@
+[workspace]
+resolver = "2"
+members = ["crates/project", "crates/lang", "crates/sheet", "crates/xlsx", "crates/slides", "crates/doc", "crates/cli"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+type_complexity = "allow"
+collapsible_if = "allow"
+
+[workspace.dependencies]
+zip = { version = "2.4", default-features = false, features = ["deflate"] }
+cfb = "0.14"
+encoding_rs = "0.8"

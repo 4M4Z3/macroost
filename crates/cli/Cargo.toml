@@ -1,0 +1,19 @@
+[package]
+name = "macroost-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "List, extract and run the macros in macro-enabled documents."
+
+[[bin]]
+name = "macroost"
+path = "src/main.rs"
+
+[dependencies]
+macroost-project = { path = "../project" }
+macroost-lang = { path = "../lang" }
+macroost-sheet = { path = "../sheet" }
+macroost-xlsx = { path = "../xlsx" }
+
+[lints]
+workspace = true

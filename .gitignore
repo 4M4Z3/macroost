@@ -1,0 +1,7 @@
+target/
+*.xlsm
+*.xls
+*.docm
+*.pptm
+!tests/fixtures/*
+.claude/

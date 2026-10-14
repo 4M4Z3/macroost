@@ -1,0 +1,1195 @@
+[
+ {
+  "macro": "Lang.C001",
+  "ok": true,
+  "value": "Integer:2",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C002",
+  "ok": false,
+  "runtime_error": {
+   "number": 6,
+   "description": "Overflow"
+  }
+ },
+ {
+  "macro": "Lang.C003",
+  "ok": true,
+  "value": "Long:32768",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C004",
+  "ok": false,
+  "runtime_error": {
+   "number": 6,
+   "description": "Overflow"
+  }
+ },
+ {
+  "macro": "Lang.C005",
+  "ok": true,
+  "value": "Long:60000",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C006",
+  "ok": false,
+  "runtime_error": {
+   "number": 6,
+   "description": "Overflow"
+  }
+ },
+ {
+  "macro": "Lang.C007",
+  "ok": true,
+  "value": "Double:3.5",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C008",
+  "ok": true,
+  "value": "Integer:3",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C009",
+  "ok": true,
+  "value": "Integer:-3",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C010",
+  "ok": true,
+  "value": "Integer:1",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C011",
+  "ok": true,
+  "value": "Integer:-1",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C012",
+  "ok": true,
+  "value": "Long:0",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C013",
+  "ok": true,
+  "value": "Long:3",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C014",
+  "ok": true,
+  "value": "Double:1024",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C015",
+  "ok": true,
+  "value": "Double:-4",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C016",
+  "ok": false,
+  "runtime_error": {
+   "number": 5,
+   "description": "Invalid procedure call or argument"
+  }
+ },
+ {
+  "macro": "Lang.C017",
+  "ok": false,
+  "runtime_error": {
+   "number": 11,
+   "description": "Division by zero"
+  }
+ },
+ {
+  "macro": "Lang.C018",
+  "ok": false,
+  "runtime_error": {
+   "number": 6,
+   "description": "Overflow"
+  }
+ },
+ {
+  "macro": "Lang.C019",
+  "ok": false,
+  "runtime_error": {
+   "number": 11,
+   "description": "Division by zero"
+  }
+ },
+ {
+  "macro": "Lang.C020",
+  "ok": true,
+  "value": "Single:0.3333333",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C021",
+  "ok": true,
+  "value": "Double:0.333333333333333",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C022",
+  "ok": true,
+  "value": "Double:0.333333333333333",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C023",
+  "ok": true,
+  "value": "Double:0.3",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C024",
+  "ok": true,
+  "value": "Double:1E+15",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C025",
+  "ok": true,
+  "value": "Double:1E+16",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C026",
+  "ok": true,
+  "value": "Double:123456789012345",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C027",
+  "ok": true,
+  "value": "Double:1.23456789012346E+15",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C028",
+  "ok": true,
+  "value": "Double:0.0001",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C029",
+  "ok": true,
+  "value": "Double:0.00001",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C030",
+  "ok": true,
+  "value": "Double:0.000001",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C031",
+  "ok": true,
+  "value": "Double:0.0000000001",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C032",
+  "ok": true,
+  "value": "Double:-0.5",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C033",
+  "ok": true,
+  "value": "Double:1234.5",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C034",
+  "ok": true,
+  "value": "Double:12",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C035",
+  "ok": true,
+  "value": "Double:16",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C036",
+  "ok": true,
+  "value": "Double:1000",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C037",
+  "ok": true,
+  "value": "Double:5",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C038",
+  "ok": false,
+  "runtime_error": {
+   "number": 13,
+   "description": "Type mismatch"
+  }
+ },
+ {
+  "macro": "Lang.C039",
+  "ok": false,
+  "runtime_error": {
+   "number": 13,
+   "description": "Type mismatch"
+  }
+ },
+ {
+  "macro": "Lang.C040",
+  "ok": true,
+  "value": "Integer:2",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C041",
+  "ok": true,
+  "value": "Integer:4",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C042",
+  "ok": true,
+  "value": "Integer:-2",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C043",
+  "ok": false,
+  "runtime_error": {
+   "number": 6,
+   "description": "Overflow"
+  }
+ },
+ {
+  "macro": "Lang.C044",
+  "ok": true,
+  "value": "Long:2",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C045",
+  "ok": true,
+  "value": "Long:2",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C046",
+  "ok": true,
+  "value": "Double:-3",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C047",
+  "ok": true,
+  "value": "Double:-2",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C048",
+  "ok": true,
+  "value": "Double:2",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C049",
+  "ok": true,
+  "value": "Double:4",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C050",
+  "ok": true,
+  "value": "Double:2.35",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C051",
+  "ok": true,
+  "value": "Double:2.36",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C052",
+  "ok": true,
+  "value": "Double:-2",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C053",
+  "ok": true,
+  "value": "Double:12",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C054",
+  "ok": true,
+  "value": "Double:123",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C055",
+  "ok": true,
+  "value": "Double:255",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C056",
+  "ok": true,
+  "value": "Double:100",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C057",
+  "ok": true,
+  "value": "Double:0",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C058",
+  "ok": true,
+  "value": "Double:15",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C059",
+  "ok": true,
+  "value": "String:105",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C060",
+  "ok": true,
+  "value": "String:ab",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C061",
+  "ok": true,
+  "value": "String:105",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C062",
+  "ok": true,
+  "value": "Integer:5",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C063",
+  "ok": true,
+  "value": "String:x",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C064",
+  "ok": true,
+  "value": "Null",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C065",
+  "ok": true,
+  "value": "Integer:0",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C066",
+  "ok": true,
+  "value": "Integer:3",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C067",
+  "ok": true,
+  "value": "Integer:1",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C068",
+  "ok": true,
+  "value": "Integer:7",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C069",
+  "ok": true,
+  "value": "Integer:6",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C070",
+  "ok": true,
+  "value": "Integer:-1",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C071",
+  "ok": true,
+  "value": "Integer:-6",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C072",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C073",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C074",
+  "ok": true,
+  "value": "Boolean:False",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C075",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C076",
+  "ok": true,
+  "value": "Boolean:False",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C077",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C078",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C079",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C080",
+  "ok": true,
+  "value": "Boolean:False",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C081",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C082",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C083",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C084",
+  "ok": true,
+  "value": "Long:5",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C085",
+  "ok": false,
+  "compile_error": true
+ },
+ {
+  "macro": "Lang.C086",
+  "ok": true,
+  "value": "String:ell",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C087",
+  "ok": true,
+  "value": "String:",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C088",
+  "ok": true,
+  "value": "String:He",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C089",
+  "ok": true,
+  "value": "String:Hello",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C090",
+  "ok": true,
+  "value": "Long:3",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C091",
+  "ok": true,
+  "value": "Long:6",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C092",
+  "ok": true,
+  "value": "Long:2",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C093",
+  "ok": true,
+  "value": "Long:1",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C094",
+  "ok": true,
+  "value": "Long:5",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C095",
+  "ok": true,
+  "value": "String:bbbbbb",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C096",
+  "ok": true,
+  "value": "String:Hexxo",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C097",
+  "ok": true,
+  "value": "String:a b",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C098",
+  "ok": true,
+  "value": "String:H\u00c9LLO",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C099",
+  "ok": true,
+  "value": "Integer:1",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C100",
+  "ok": true,
+  "value": "Integer:-1",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C101",
+  "ok": true,
+  "value": "String:cba",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C102",
+  "ok": true,
+  "value": "String:   |",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C103",
+  "ok": true,
+  "value": "String:aaa",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C104",
+  "ok": true,
+  "value": "String:A",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C105",
+  "ok": true,
+  "value": "Integer:97",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C106",
+  "ok": true,
+  "value": "String:",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C107",
+  "ok": true,
+  "value": "Long:3",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C108",
+  "ok": true,
+  "value": "String:1-2-3",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C109",
+  "ok": true,
+  "value": "Long:-1",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C110",
+  "ok": true,
+  "value": "String:FF",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C111",
+  "ok": true,
+  "value": "String:FFFF",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C112",
+  "ok": true,
+  "value": "String:10",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C113",
+  "ok": true,
+  "value": "String: 5",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C114",
+  "ok": true,
+  "value": "String:-5",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C115",
+  "ok": true,
+  "value": "String:5",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C116",
+  "ok": true,
+  "value": "String:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C117",
+  "ok": true,
+  "value": "String:1/2/2026",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C118",
+  "ok": true,
+  "value": "String:1/2/2026 3:04:05 PM",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C119",
+  "ok": true,
+  "value": "String:3:04:05 AM",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C120",
+  "ok": true,
+  "value": "String:10/14/2026",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C121",
+  "ok": true,
+  "value": "Date:10/15/2026",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C122",
+  "ok": true,
+  "value": "Double:13",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C123",
+  "ok": true,
+  "value": "Double:46309",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C124",
+  "ok": true,
+  "value": "Date:1/1/2027",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C125",
+  "ok": true,
+  "value": "Date:3/2/2026",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C126",
+  "ok": true,
+  "value": "Date:2/28/2026",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C127",
+  "ok": true,
+  "value": "Date:2/29/2024",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C128",
+  "ok": true,
+  "value": "Long:364",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C129",
+  "ok": true,
+  "value": "Long:1",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C130",
+  "ok": true,
+  "value": "Integer:4",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C131",
+  "ok": true,
+  "value": "String:2026/10/14",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C132",
+  "ok": true,
+  "value": "String:October",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C133",
+  "ok": true,
+  "value": "String:Wednesday",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C134",
+  "ok": true,
+  "value": "String:1,234.50",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C135",
+  "ok": true,
+  "value": "String:1235",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C136",
+  "ok": true,
+  "value": "String:25.6%",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C137",
+  "ok": true,
+  "value": "String:-$1,234.50",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C138",
+  "ok": true,
+  "value": "String:$1,234.50",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C139",
+  "ok": true,
+  "value": "String:1,234.50",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C140",
+  "ok": true,
+  "value": "String:50.00%",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C141",
+  "ok": true,
+  "value": "String:1234.5",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C142",
+  "ok": true,
+  "value": "String:2026-10-14",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C143",
+  "ok": true,
+  "value": "String:Oct 14, 2026",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C144",
+  "ok": true,
+  "value": "String:Wednesday",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C145",
+  "ok": true,
+  "value": "String:03:04 PM",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C146",
+  "ok": true,
+  "value": "String:Wednesday, October 14, 2026",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C147",
+  "ok": true,
+  "value": "String:10/14/2026",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C148",
+  "ok": true,
+  "value": "String:00005",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C149",
+  "ok": true,
+  "value": "String:Yes",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C150",
+  "ok": true,
+  "value": "String:ABC",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C151",
+  "ok": true,
+  "value": "String:1,234.57",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C152",
+  "ok": true,
+  "value": "String:12.34%",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C153",
+  "ok": true,
+  "value": "String:($5.00)",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C154",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C155",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C156",
+  "ok": true,
+  "value": "Boolean:False",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C157",
+  "ok": true,
+  "value": "Boolean:False",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C158",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C159",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C160",
+  "ok": true,
+  "value": "Boolean:False",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C161",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C162",
+  "ok": true,
+  "value": "Long:2",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C163",
+  "ok": true,
+  "value": "Long:3",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C164",
+  "ok": true,
+  "value": "Long:5",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C165",
+  "ok": true,
+  "value": "Long:8",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C166",
+  "ok": true,
+  "value": "Long:1",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C167",
+  "ok": true,
+  "value": "String:Integer",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C168",
+  "ok": true,
+  "value": "String:Long",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C169",
+  "ok": true,
+  "value": "String:Double",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C170",
+  "ok": true,
+  "value": "String:Currency",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C171",
+  "ok": true,
+  "value": "String:Empty",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C172",
+  "ok": true,
+  "value": "String:Null",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C173",
+  "ok": true,
+  "value": "String:Variant()",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C174",
+  "ok": true,
+  "value": "String:Integer",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C175",
+  "ok": true,
+  "value": "Integer:-1",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C176",
+  "ok": true,
+  "value": "Long:65535",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C177",
+  "ok": true,
+  "value": "Integer:-32768",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C178",
+  "ok": true,
+  "value": "String:b",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C179",
+  "ok": true,
+  "value": "String:b",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C180",
+  "ok": true,
+  "value": "String:b",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C181",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C182",
+  "ok": false,
+  "runtime_error": {
+   "number": 13,
+   "description": "Type mismatch"
+  }
+ },
+ {
+  "macro": "Lang.C183",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C184",
+  "ok": true,
+  "value": "Byte:255",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C185",
+  "ok": false,
+  "runtime_error": {
+   "number": 6,
+   "description": "Overflow"
+  }
+ },
+ {
+  "macro": "Lang.C186",
+  "ok": true,
+  "value": "Currency:1.2346",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C187",
+  "ok": true,
+  "value": "Double:0.333333333333333",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C188",
+  "ok": true,
+  "value": "Date:3/15/2023",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C189",
+  "ok": true,
+  "value": "Date:3:00:00 PM",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C190",
+  "ok": true,
+  "value": "Integer:3",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C191",
+  "ok": true,
+  "value": "Integer:-1",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C192",
+  "ok": true,
+  "value": "Double:4",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C193",
+  "ok": true,
+  "value": "Double:2.71828182845905",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C194",
+  "ok": true,
+  "value": "Double:2",
+  "type": "String"
+ },
+ {
+  "macro": "Lang.C195",
+  "ok": true,
+  "value": "Double:3.14159265358979",
+  "type": "String"
+ }
+]

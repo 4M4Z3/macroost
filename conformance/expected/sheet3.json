@@ -1,0 +1,614 @@
+[
+ {
+  "macro": "Look.L001",
+  "ok": true,
+  "value": "65535|6|255|3|16777215|-4142",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L002",
+  "ok": true,
+  "value": "-4142|-4142|1|-4142|16777215|-4142",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L003",
+  "ok": true,
+  "value": "False|True|255|5",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L004",
+  "ok": true,
+  "value": "65535|12632256|16764057|3",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L005",
+  "ok": true,
+  "value": "True|True|2|True|14|Arial|16711680|5|Bold Italic",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L006",
+  "ok": true,
+  "value": "False|False|-4142|False|11|Calibri|0|-4105|Regular",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L007",
+  "ok": true,
+  "value": "True|11|True|-4119|-4142|2",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L008",
+  "ok": true,
+  "value": "255|3|-4105|0",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L009",
+  "ok": true,
+  "value": "1004|11|0|10.5|True|True",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L010",
+  "ok": true,
+  "value": "1|4|255|3|1|-4142|2",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L011",
+  "ok": true,
+  "value": "1|-4138|-4142|-4138|1|-4142",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L012",
+  "ok": true,
+  "value": "1|1|1|1|-4142|-4142",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L013",
+  "ok": true,
+  "value": "-4115|-4118|-4119|4|1|1",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L014",
+  "ok": true,
+  "value": "-4108|-4152|1|-4160|-4107|True",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L015",
+  "ok": true,
+  "value": "True|False|True|7|0|-4128",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L016",
+  "ok": true,
+  "value": "True|True|$B$2:$D$3|True||True|$E$5",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L017",
+  "ok": true,
+  "value": "keep|True|True|False|$B$2",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L018",
+  "ok": true,
+  "value": "$A$1:$C$1|$A$2:$C$2||False|$E$1:$F$2",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L019",
+  "ok": true,
+  "value": "|5|4|$B$2|2",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L020",
+  "ok": true,
+  "value": "15|8.43|8.43|15|30|20|30|False|False",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L021",
+  "ok": true,
+  "value": "25.5|25.5|3|76.5|15",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L022",
+  "ok": true,
+  "value": "1004|15|1004|8.43|0|0|True",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L023",
+  "ok": true,
+  "value": "True|False|True|True|0|0|False|False|15",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L024",
+  "ok": true,
+  "value": "1004|Unable to set the Hidden property of the Range class|False|0",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L025",
+  "ok": true,
+  "value": "True|0|8.43",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L026",
+  "ok": true,
+  "value": "True|False|False|True|True",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L027",
+  "ok": true,
+  "value": "1|False|-4142|General|1",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L028",
+  "ok": true,
+  "value": "True|False|True|True",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L029",
+  "ok": true,
+  "value": "True|4|True|False|4",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L030",
+  "ok": true,
+  "value": "9|9|11",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L031",
+  "ok": true,
+  "value": "True|65535|True",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L032",
+  "ok": true,
+  "value": "2|-4128|True|-4131",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L033",
+  "ok": true,
+  "value": "16744448|8421504|16|33",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L034",
+  "ok": true,
+  "value": "1|16711680|5|6",
+  "type": "String"
+ },
+ {
+  "macro": "Look.L035",
+  "ok": true,
+  "value": "1|-4142|1",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F001",
+  "ok": true,
+  "value": "1235|1234.57|1,235|1,234.57|1|0|3|.12",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F002",
+  "ok": true,
+  "value": "26%|25.6%|150.00%|-5%|0%",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F003",
+  "ok": true,
+  "value": "$1,234.50|-$1,234.50|($1,234.50)|($1,234.50)|$0",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F004",
+  "ok": true,
+  "value": "[ $1,234.50 ]|[ $(1,234.50)]|[ $-   ]|[ txt ]",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F005",
+  "ok": true,
+  "value": "[ 1,235 ]|[ (7)]|[ - ]",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F006",
+  "ok": true,
+  "value": "3/7/2026|03/07/2026|7-Mar-26|07-Mar-2026|Mar-26|March 7, 2026|Saturday|Sat, Mar 7",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F007",
+  "ok": true,
+  "value": "14:05|2:05 PM|14:05:09|2:05:09 PM|3/7/2026 14:05|2026-03-07 14:05:09|2 PM|05:09",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F008",
+  "ok": true,
+  "value": "36:00|66:00:00|90:00|12:00 P|23:58",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F009",
+  "ok": true,
+  "value": "1.23E+04|1.23E-04|12.3E+3|-5E+00|1.0E0",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F010",
+  "ok": true,
+  "value": "1 1/2|  1/3 |9/4|5    | 1/8|-1 3/4",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F011",
+  "ok": true,
+  "value": "123|abc|pre abc|Qty: 5|5 units|3x",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F012",
+  "ok": true,
+  "value": "5|(5)|zero|text:t|5|-5",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F013",
+  "ok": true,
+  "value": "5|-5|5.0|big|small",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F014",
+  "ok": true,
+  "value": "123-45-6789|555-1234|00042|3.142|007.0",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F015",
+  "ok": true,
+  "value": "1,235|1.2|1M|1",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F016",
+  "ok": true,
+  "value": "12345678901|1.23457E+11|0.00001234|1234.56789|-1E-20|1E+100",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F017",
+  "ok": true,
+  "value": "TRUE|text|#N/A|FALSE",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F018",
+  "ok": true,
+  "value": "2026|26|D|12|25|25|Fri|December 25, 2026",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F019",
+  "ok": true,
+  "value": "1/0/1900|1/1/1900|2/29/1900|3/1/1900|1/0/1900 12:00",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F020",
+  "ok": true,
+  "value": "############################################################|############################################################|12/31/9999",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F021",
+  "ok": true,
+  "value": "1,234.50 USD|75% done|12 items|(3.2)",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F022",
+  "ok": true,
+  "value": "$1,234.50|1,234.50 USD",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F023",
+  "ok": true,
+  "value": "1.01|2.68|-3|4.5%|1,235",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F024",
+  "ok": true,
+  "value": "0.00|0.00|-0.00|1,000,000||0",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F025",
+  "ok": true,
+  "value": "45 |45| 7|7.5 |7.25|7.  ",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F026",
+  "ok": true,
+  "value": "50.0%|0.5|0.0%|0.5|General",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F027",
+  "ok": true,
+  "value": "0.00|True|0.00|General",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F028",
+  "ok": true,
+  "value": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)|Currency|0%|123450%|_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)|Comma",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F029",
+  "ok": true,
+  "value": "4|3.7|5",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F030",
+  "ok": true,
+  "value": "1,234.50|1,234.50|25%|Jan 9, 2026|(3)",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F031",
+  "ok": true,
+  "value": "(1,234.50)|0.10|0.00|12.0|12.35",
+  "type": "String"
+ },
+ {
+  "macro": "Nfmt.F032",
+  "ok": true,
+  "value": "12:00:00.0|1.00|01/01/00 18:00|Saturday, January 01, 2000",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V001",
+  "ok": true,
+  "value": "Double:123:123:General|Double:1000:1.00E+03:0.00E+00|Double:12:12:General|Double:1234:1,234:#,##0|Double:-5.5:-5.5:General",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V002",
+  "ok": true,
+  "value": "Double:0.5:50%:0%|Double:0.125:12.50%:0.00%|Currency:1234.5:$1,234.50 :$#,##0.00_);[Red]($#,##0.00)|Currency:7:$7 :$#,##0_);[Red]($#,##0)|Double:-42:-42:General",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V003",
+  "ok": true,
+  "value": "Date:46387:12/31/2026:m/d/yyyy|Date:46085:3/4/2026:m/d/yyyy|Double:0.645833333333333:3:30 PM:h:mm AM/PM|Double:0.586805555555556:14:05:h:mm|Date:46024.4375:1/2/2026 10:30:m/d/yyyy h:mm",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V004",
+  "ok": true,
+  "value": "Boolean:True:TRUE:General|Boolean:False:FALSE:General|Error:#N/A|String:0012:0012:General|Double:12:12:General",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V005",
+  "ok": true,
+  "value": "Double:5:5:General|Double:5:5:General|Currency:5.25:$5.25 :$#,##0.00_);($#,##0.00)|Date:46309:10/14/2026:m/d/yyyy|Boolean:True:TRUE:General",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V006",
+  "ok": true,
+  "value": "Date:46309.7708333333:10/14/2026 18:30:m/d/yyyy h:mm|Double:0.25:6:00:00 AM:h:mm:ss AM/PM|Double:46309:46309:General",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V007",
+  "ok": true,
+  "value": "String:00123:00123:@|Double:45:45:@|String:=1+1:=1+1:@|False",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V008",
+  "ok": true,
+  "value": "6|7|=A2*2|14|=SUM(R[-3]C:R[-1]C)|27",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V009",
+  "ok": true,
+  "value": "=R1C1+R[-1]C[-1]+R[-1]C1+R1C[-1]|=$A$1+A1+$A1+A$1|=A2+$A$1+C3+B$2",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V010",
+  "ok": true,
+  "value": "30|=A3+1|21|True",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V011",
+  "ok": true,
+  "value": "|True|False|True|False",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V012",
+  "ok": true,
+  "value": "1234.5678|1234.5678|1234.5678|1234.5678|1234.5678",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V013",
+  "ok": true,
+  "value": "hello|TRUE|#DIV/0!|=1/0|True",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V014",
+  "ok": true,
+  "value": "True|2042|2007|2015|2029|#NAME?|#VALUE!",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V015",
+  "ok": true,
+  "value": "Variant()|1|2|=1",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V016",
+  "ok": true,
+  "value": "3|#N/A|True",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V017",
+  "ok": true,
+  "value": "1234|#N/A|#N/A",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V018",
+  "ok": true,
+  "value": "123|Variant()",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V019",
+  "ok": true,
+  "value": "Double|Variant()|True|String|False",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V020",
+  "ok": true,
+  "value": "0.3|1E+20|1.23457E-05|1.23457E+11|-0.000001",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V021",
+  "ok": true,
+  "value": "1.23457E+13|1234567.891|3.141592654|100|2.5E-10|3.14159265358979",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V022",
+  "ok": true,
+  "value": "11|True|6",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V023",
+  "ok": true,
+  "value": "True|True|True|0",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V024",
+  "ok": true,
+  "value": "[  padded  ]|=  1 + 2|3|Double:5:5:General|String:-:-:General|String:=:=:General",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V025",
+  "ok": true,
+  "value": "Date:46023:Jan-26:mmm-yy|Date:38415:3/4/2005:m/d/yyyy|Date:46027:5-Jan-26:d-mmm-yy|Date:46086:5-Mar-26:d-mmm-yy|Double:0.5: 1/2:# ?/?",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V026",
+  "ok": true,
+  "value": "Date|Double|3/15/2023|45000|3/15/2023",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V027",
+  "ok": true,
+  "value": "Currency|Double|12.345|$12.35|Double",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V028",
+  "ok": true,
+  "value": "0|Date|10/14/2026|m/d/yyyy|6:30 PM|h:mm AM/PM",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V029",
+  "ok": true,
+  "value": "6|6|12|Double",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V030",
+  "ok": true,
+  "value": "xy|2|xy",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V031",
+  "ok": true,
+  "value": "7|7|s|0|Double",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V032",
+  "ok": true,
+  "value": "Double|False|text|3.5|False",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V033",
+  "ok": true,
+  "value": "110|110|False",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V034",
+  "ok": true,
+  "value": "abc1|1x|4|Double",
+  "type": "String"
+ },
+ {
+  "macro": "Vals.V035",
+  "ok": true,
+  "value": "a|Double|Boolean|TRUE",
+  "type": "String"
+ }
+]

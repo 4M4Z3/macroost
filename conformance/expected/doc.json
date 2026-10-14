@@ -1,0 +1,1700 @@
+[
+ {
+  "macro": "WBasics.B01",
+  "ok": true,
+  "value": "Hello\r|6|1",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B02",
+  "ok": true,
+  "value": "abc\rdef\r|2|8",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B03",
+  "ok": true,
+  "value": "Hello|world",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B04",
+  "ok": true,
+  "value": "6|11|5",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B05",
+  "ok": true,
+  "value": "26|8|2|1",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B06",
+  "ok": true,
+  "value": "[Hello ][world][. ][How ]",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B07",
+  "ok": true,
+  "value": "a|13|4",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B08",
+  "ok": true,
+  "value": "Hello world\r",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B09",
+  "ok": true,
+  "value": "3|Two\r|4|8",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B10",
+  "ok": true,
+  "value": "2,2|7,7",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B11",
+  "ok": true,
+  "value": "3|5|Hello",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B12",
+  "ok": true,
+  "value": "Hello world\r|12",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B13",
+  "ok": true,
+  "value": "6|31|2|6",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B14",
+  "ok": true,
+  "value": "Goodbye world\r|14",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B15",
+  "ok": true,
+  "value": "abcdef|0|6",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B16",
+  "ok": true,
+  "value": "Xb|1|3|aXbc\r",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B17",
+  "ok": true,
+  "value": "4|2|abc\r\r",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B18",
+  "ok": true,
+  "value": "First\r|Last\r",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B19",
+  "ok": true,
+  "value": "2;3;4;",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B20",
+  "ok": true,
+  "value": "7|3|2",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B21",
+  "ok": true,
+  "value": "4|[Two! ]|[Four\r]",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B22",
+  "ok": true,
+  "value": "3|6",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B23",
+  "ok": true,
+  "value": "cde|abcde|0|5",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B24",
+  "ok": false,
+  "runtime_error": {
+   "number": 4608,
+   "description": "Value out of range"
+  }
+ },
+ {
+  "macro": "WBasics.B25",
+  "ok": false,
+  "runtime_error": {
+   "number": 4608,
+   "description": "Value out of range"
+  }
+ },
+ {
+  "macro": "WBasics.B26",
+  "ok": true,
+  "value": "abc|abcde",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B27",
+  "ok": true,
+  "value": "1|1|1|1|0",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B28",
+  "ok": true,
+  "value": "4|[a  ]|[b   ]",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B29",
+  "ok": true,
+  "value": "9|3|P|True",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B30",
+  "ok": true,
+  "value": "[]|1|1|1",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B31",
+  "ok": true,
+  "value": "-1|0|3|abc",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B32",
+  "ok": true,
+  "value": "2|4",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B33",
+  "ok": true,
+  "value": "[big ]|6|10",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B34",
+  "ok": true,
+  "value": "[Second para\r]|11|23",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B35",
+  "ok": true,
+  "value": "1|1|13",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B36",
+  "ok": true,
+  "value": "world|10|15",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B37",
+  "ok": true,
+  "value": "2|5",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B38",
+  "ok": true,
+  "value": "4|4|2",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B39",
+  "ok": true,
+  "value": "6|[It's ]|[3]",
+  "type": "String"
+ },
+ {
+  "macro": "WBasics.B40",
+  "ok": true,
+  "value": "Two\r|1",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D01",
+  "ok": true,
+  "value": "1|doc.docm|True|doc.docm",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D02",
+  "ok": true,
+  "value": "1|2|True|1",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D03",
+  "ok": true,
+  "value": "abc\r|4|bc\r",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D04",
+  "ok": true,
+  "value": "Document|Documents|Selection|Application|Paragraphs|Words",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D05",
+  "ok": true,
+  "value": "doc.docm|True",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D06",
+  "ok": true,
+  "value": "new\r|\r|new\r",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D07",
+  "ok": true,
+  "value": "abc\r|1|0",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D08",
+  "ok": true,
+  "value": "[red ][green ][blue][\r]",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D09",
+  "ok": true,
+  "value": "97,98,13,",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D10",
+  "ok": true,
+  "value": "[One. ][Two.\r]",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D11",
+  "ok": false,
+  "runtime_error": {
+   "number": 5941,
+   "description": "The requested member of the collection does not exist."
+  }
+ },
+ {
+  "macro": "WDoc.D12",
+  "ok": false,
+  "runtime_error": {
+   "number": 5941,
+   "description": "The requested member of the collection does not exist."
+  }
+ },
+ {
+  "macro": "WDoc.D13",
+  "ok": true,
+  "value": "0|6|11",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D14",
+  "ok": true,
+  "value": "xyz\r|0|4|xyz\r",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D15",
+  "ok": true,
+  "value": "Hi|0|2",
+  "type": "String"
+ },
+ {
+  "macro": "WDoc.D16",
+  "ok": true,
+  "value": "big |6|10|Hello big world\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R01",
+  "ok": true,
+  "value": "True|6|11|world",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R02",
+  "ok": true,
+  "value": "False|2|8",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R03",
+  "ok": true,
+  "value": "bANANa bANdANa\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R04",
+  "ok": true,
+  "value": "Cat dog CAT\r|Dog dog DOG\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R05",
+  "ok": true,
+  "value": "a theme other a\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R06",
+  "ok": true,
+  "value": "yy1 yy2 yy3\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R07",
+  "ok": true,
+  "value": "3|1,3,5,",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R08",
+  "ok": true,
+  "value": "two one one\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R09",
+  "ok": true,
+  "value": "alpha b alpha\r|14",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R10",
+  "ok": true,
+  "value": "aaa bbb aaa\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R11",
+  "ok": true,
+  "value": "True|False",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R12",
+  "ok": true,
+  "value": "remove duplicate\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R13",
+  "ok": true,
+  "value": "one two three \r|1",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R14",
+  "ok": true,
+  "value": "a;b;c\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R15",
+  "ok": true,
+  "value": "Bye bye BYE\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R16",
+  "ok": true,
+  "value": "True|False|aBc\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R17",
+  "ok": true,
+  "value": "9|13",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R18",
+  "ok": true,
+  "value": "False|0|4",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R19",
+  "ok": true,
+  "value": "dog category concat dog.\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R20",
+  "ok": true,
+  "value": "3|a\rb\rc\r",
+  "type": "String"
+ },
+ {
+  "macro": "WFind.R21",
+  "ok": true,
+  "value": "False|True|World",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F01",
+  "ok": true,
+  "value": "-1|0|9999999",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F02",
+  "ok": true,
+  "value": "0|-1|9999999|-1",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F03",
+  "ok": true,
+  "value": "14|11|9999999",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F04",
+  "ok": true,
+  "value": "Arial|Calibri|[]",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F05",
+  "ok": true,
+  "value": "1|0|9999999",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F06",
+  "ok": true,
+  "value": "3|2",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F07",
+  "ok": true,
+  "value": "0|0|Calibri|11|0",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F08",
+  "ok": true,
+  "value": "1|0|9999999",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F09",
+  "ok": true,
+  "value": "-1|abcdef",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F10",
+  "ok": true,
+  "value": "-1|0",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F11",
+  "ok": true,
+  "value": "-1|-1|-1|[Hello ]",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F12",
+  "ok": true,
+  "value": "Heading 1|Normal|Heading 1",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F13",
+  "ok": true,
+  "value": "Calibri|11|Normal",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F14",
+  "ok": true,
+  "value": "-1|0|-1|9999999",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F15",
+  "ok": true,
+  "value": "255|-16777216|9999999",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F16",
+  "ok": true,
+  "value": "10.5|Single",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F17",
+  "ok": true,
+  "value": "2|1",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F18",
+  "ok": true,
+  "value": "36|0|12|0",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F19",
+  "ok": true,
+  "value": "-1-120|11",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F20",
+  "ok": true,
+  "value": "-1|-1|-1",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F21",
+  "ok": true,
+  "value": "-1|0|9999999",
+  "type": "String"
+ },
+ {
+  "macro": "WFormat.F22",
+  "ok": true,
+  "value": "Font|ParagraphFormat|Paragraph|Range|Style",
+  "type": "String"
+ },
+ {
+  "macro": "WMark.K01",
+  "ok": true,
+  "value": "True|False|1",
+  "type": "String"
+ },
+ {
+  "macro": "WMark.K02",
+  "ok": true,
+  "value": "Hello|greeting|0|5",
+  "type": "String"
+ },
+ {
+  "macro": "WMark.K03",
+  "ok": true,
+  "value": "10|15|world",
+  "type": "String"
+ },
+ {
+  "macro": "WMark.K04",
+  "ok": true,
+  "value": "False|0|Hello world\r",
+  "type": "String"
+ },
+ {
+  "macro": "WMark.K05",
+  "ok": true,
+  "value": "alpha,mid,zeta",
+  "type": "String"
+ },
+ {
+  "macro": "WMark.K06",
+  "ok": true,
+  "value": "False|Howdy world\r",
+  "type": "String"
+ },
+ {
+  "macro": "WMark.K07",
+  "ok": false,
+  "runtime_error": {
+   "number": 5828,
+   "description": "Bad bookmark name."
+  }
+ },
+ {
+  "macro": "WMark.K08",
+  "ok": true,
+  "value": "1|world",
+  "type": "String"
+ },
+ {
+  "macro": "WMark.K09",
+  "ok": true,
+  "value": "True|3|True",
+  "type": "String"
+ },
+ {
+  "macro": "WMark.K10",
+  "ok": true,
+  "value": "c1;c2;",
+  "type": "String"
+ },
+ {
+  "macro": "WMark.K11",
+  "ok": false,
+  "runtime_error": {
+   "number": 5941,
+   "description": "The requested member of the collection does not exist."
+  }
+ },
+ {
+  "macro": "WMark.K12",
+  "ok": true,
+  "value": "world|world!",
+  "type": "String"
+ },
+ {
+  "macro": "WMark.K13",
+  "ok": true,
+  "value": "9|Heo world",
+  "type": "String"
+ },
+ {
+  "macro": "WMark.K14",
+  "ok": true,
+  "value": "1|1|0",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S01",
+  "ok": true,
+  "value": "5|5|Hello\r",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S02",
+  "ok": true,
+  "value": "XHello\r|1",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S03",
+  "ok": true,
+  "value": "abcZ\r|4",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S04",
+  "ok": true,
+  "value": "2|2|2",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S05",
+  "ok": true,
+  "value": "bcd|1|4",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S06",
+  "ok": true,
+  "value": "2|4",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S07",
+  "ok": true,
+  "value": "2|One\rTwo\r|7",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S08",
+  "ok": true,
+  "value": "Bye world\r|0|3|Bye",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S09",
+  "ok": true,
+  "value": "world|world|6",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S10",
+  "ok": true,
+  "value": "8,8|2,2",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S11",
+  "ok": true,
+  "value": "1|6|1|[big ]",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S12",
+  "ok": true,
+  "value": "0|3",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S13",
+  "ok": true,
+  "value": "adef\r|1|1",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S14",
+  "ok": true,
+  "value": "abdef\r|2",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S15",
+  "ok": true,
+  "value": "abdef\r|2",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S16",
+  "ok": true,
+  "value": "1|2",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S17",
+  "ok": true,
+  "value": "3|15|1|1",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S18",
+  "ok": true,
+  "value": "abcdef|0|6",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S19",
+  "ok": true,
+  "value": "Two\r|1",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S20",
+  "ok": true,
+  "value": "abc|0|3",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S21",
+  "ok": true,
+  "value": "4|4",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S22",
+  "ok": true,
+  "value": "2|2",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S23",
+  "ok": true,
+  "value": "aXYZcdef\r|4|4",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S24",
+  "ok": true,
+  "value": "0|6|Hello\r",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S25",
+  "ok": true,
+  "value": "6|11|world",
+  "type": "String"
+ },
+ {
+  "macro": "WSel.S26",
+  "ok": true,
+  "value": "-1|abcd\r",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T01",
+  "ok": true,
+  "value": "1|2|3",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T02",
+  "ok": true,
+  "value": "3|A|13|7",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T03",
+  "ok": true,
+  "value": "97 13 7 98 13 7 13 7 99 13 7 100 13 7 13 7 13 ",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T04",
+  "ok": true,
+  "value": "3|6",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T05",
+  "ok": true,
+  "value": "0|6|7",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T06",
+  "ok": true,
+  "value": "9|9|9",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T07",
+  "ok": true,
+  "value": "Hello|7|4|10",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T08",
+  "ok": true,
+  "value": "0-1 1-2 2-3 4-5 5-6 6-7 ",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T09",
+  "ok": true,
+  "value": "xy",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T10",
+  "ok": true,
+  "value": "4|3|12",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T11",
+  "ok": true,
+  "value": "3|3",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T12",
+  "ok": true,
+  "value": "0|1|1",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T13",
+  "ok": true,
+  "value": "PBqPBPBrsPBPBPB|9|7",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T14",
+  "ok": true,
+  "value": "7|aPBPBPB",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T15",
+  "ok": true,
+  "value": "1|5|PBPBP",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T16",
+  "ok": true,
+  "value": "BeforePPBzPBPBAfterP|5",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T17",
+  "ok": true,
+  "value": "Table|Cell|Rows|Row|2|1",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T18",
+  "ok": true,
+  "value": "pqr",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T19",
+  "ok": true,
+  "value": "1|1",
+  "type": "String"
+ },
+ {
+  "macro": "WTable.T20",
+  "ok": true,
+  "value": "2|8|3",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF01",
+  "ok": true,
+  "value": "True|6|8",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF02",
+  "ok": true,
+  "value": "True|6|True|3",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF03",
+  "ok": true,
+  "value": "x# y## z###\r",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF04",
+  "ok": true,
+  "value": "[cat] [hat]\r",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF05",
+  "ok": true,
+  "value": "L1L2\r",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF06",
+  "ok": true,
+  "value": "X, X. X! X-world\r",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF07",
+  "ok": true,
+  "value": "2",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF08",
+  "ok": true,
+  "value": "aa\r",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF09",
+  "ok": true,
+  "value": "aTbP",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF10",
+  "ok": true,
+  "value": "onePtwoP|2",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF11",
+  "ok": true,
+  "value": "blue green red\r|0|4|blue",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF12",
+  "ok": true,
+  "value": "0|16|blue green blue\r",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF13",
+  "ok": true,
+  "value": "True|",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF14",
+  "ok": true,
+  "value": "True|0|False|False|False|[]|[]",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF15",
+  "ok": true,
+  "value": "True|b|1",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF16",
+  "ok": true,
+  "value": "A A a\r",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF17",
+  "ok": true,
+  "value": "DOG\r",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF18",
+  "ok": true,
+  "value": "Xyzw xyzw\r|-1|0",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF19",
+  "ok": true,
+  "value": "False|6|12",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF20",
+  "ok": true,
+  "value": "x-y\r",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF21",
+  "ok": true,
+  "value": "True|True",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF22",
+  "ok": true,
+  "value": "a--b--c\r|1|6",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF23",
+  "ok": true,
+  "value": "True|2|c",
+  "type": "String"
+ },
+ {
+  "macro": "XFind.XF24",
+  "ok": true,
+  "value": "True|two",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA01",
+  "ok": true,
+  "value": "4|4",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA02",
+  "ok": true,
+  "value": "5|5",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA03",
+  "ok": true,
+  "value": "2|10|10",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA04",
+  "ok": true,
+  "value": "1|3|6|[lo ]",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA05",
+  "ok": true,
+  "value": "-1|10|12",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA06",
+  "ok": true,
+  "value": "2|line1Pline2P",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA07",
+  "ok": true,
+  "value": "2|aPbP|4",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA08",
+  "ok": true,
+  "value": "1|4|1|aLbP",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA09",
+  "ok": true,
+  "value": "2|[Hello ]|[big ]",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA10",
+  "ok": true,
+  "value": "2|[First paraP]|[Second paraP]",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA11",
+  "ok": true,
+  "value": "6|15|big world",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA12",
+  "ok": true,
+  "value": "0|5|Hello",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA13",
+  "ok": true,
+  "value": "3|3",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA14",
+  "ok": true,
+  "value": "0|5|o wor",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA15",
+  "ok": true,
+  "value": "2|abef\r",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA16",
+  "ok": true,
+  "value": "1|Hello world\r",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA17",
+  "ok": true,
+  "value": "1|1",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA18",
+  "ok": true,
+  "value": "3|OnePPTwoP|PTwoP",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA19",
+  "ok": true,
+  "value": "OnePXTwoP|OnePX",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA20",
+  "ok": true,
+  "value": "OnePTwoXP|TwoXP",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA21",
+  "ok": true,
+  "value": "UnoTwoP|1|Uno",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA22",
+  "ok": true,
+  "value": "cP|aP|True",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA23",
+  "ok": true,
+  "value": "[Two. ]|5|10",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA24",
+  "ok": true,
+  "value": "4|0|4",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA25",
+  "ok": true,
+  "value": "3|[  ]|1",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA26",
+  "ok": true,
+  "value": "12|3|[... ]|[Wait... ]",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA27",
+  "ok": true,
+  "value": "14|5|[-]",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA28",
+  "ok": true,
+  "value": "2|[Hi. P]",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA29",
+  "ok": true,
+  "value": "4|4|3",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA30",
+  "ok": true,
+  "value": "True|False|True",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA31",
+  "ok": true,
+  "value": "2|2",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA32",
+  "ok": true,
+  "value": "xyzdef\r|xyz",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA33",
+  "ok": true,
+  "value": "PwxyP|2",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA34",
+  "ok": true,
+  "value": "aPcP|P|1|2",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA35",
+  "ok": true,
+  "value": "A Hello world\r|A ",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA36",
+  "ok": false,
+  "runtime_error": {
+   "number": 13,
+   "description": "Type mismatch"
+  }
+ },
+ {
+  "macro": "XRange.XA37",
+  "ok": true,
+  "value": "one big two\r|4",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA38",
+  "ok": true,
+  "value": "[P][c][b ][a ]",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA39",
+  "ok": true,
+  "value": "ac\r|1|1",
+  "type": "String"
+ },
+ {
+  "macro": "XRange.XA40",
+  "ok": true,
+  "value": "3|2|9",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS01",
+  "ok": true,
+  "value": "4",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS02",
+  "ok": true,
+  "value": "8",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS03",
+  "ok": true,
+  "value": "[Hello ]|0|6",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS04",
+  "ok": true,
+  "value": "aXPYbcP|4|2",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS05",
+  "ok": true,
+  "value": "newP|3",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS06",
+  "ok": true,
+  "value": "1|0|0",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS07",
+  "ok": true,
+  "value": "1|10",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS08",
+  "ok": true,
+  "value": "0|2|ab",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS09",
+  "ok": true,
+  "value": "abc!P",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS10",
+  "ok": true,
+  "value": "0|6|HelloP",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS11",
+  "ok": true,
+  "value": "5",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS12",
+  "ok": true,
+  "value": "b|2|Range",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS13",
+  "ok": true,
+  "value": "aXYZc\r|1|1",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS14",
+  "ok": true,
+  "value": "-1|-1",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XS15",
+  "ok": true,
+  "value": "aP|1",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT01",
+  "ok": true,
+  "value": "3|newPBPBPBPBPBPBPBPBPB",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT02",
+  "ok": true,
+  "value": "2|bPBPBPBPBPBPB",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT03",
+  "ok": true,
+  "value": "8|aPbPB|4",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT04",
+  "ok": true,
+  "value": "PBPBPBPBPBPB|6",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT05",
+  "ok": true,
+  "value": "4|1|abcPB",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT06",
+  "ok": true,
+  "value": "True|False",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT07",
+  "ok": true,
+  "value": "aPPBPBbcP|4",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT08",
+  "ok": true,
+  "value": "11;12;21;22;",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT09",
+  "ok": true,
+  "value": "-1|0|-1",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT10",
+  "ok": true,
+  "value": "xPBPBPBPBzzPBPBP",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT11",
+  "ok": true,
+  "value": "2|2|PBPBbetweenPPBPBPBP",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT12",
+  "ok": true,
+  "value": "2|1|5",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT13",
+  "ok": true,
+  "value": "1|1|4",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XT14",
+  "ok": true,
+  "value": "0-3|3-6|4",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XK01",
+  "ok": true,
+  "value": "6|big world",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XK02",
+  "ok": true,
+  "value": "6|big world",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XK03",
+  "ok": true,
+  "value": "3|3",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XK04",
+  "ok": true,
+  "value": "False|0",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XK05",
+  "ok": true,
+  "value": "2|4",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XK06",
+  "ok": true,
+  "value": "a_1|B2",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XK07",
+  "ok": true,
+  "value": "Hello|0",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XK08",
+  "ok": true,
+  "value": "0|4|o wo",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XD01",
+  "ok": true,
+  "value": "Heading 2|Heading 2|Heading 2",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XD02",
+  "ok": true,
+  "value": "Title|Normal",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XD03",
+  "ok": false,
+  "runtime_error": {
+   "number": 5834,
+   "description": "Item with specified name does not exist."
+  }
+ },
+ {
+  "macro": "XSelTab.XD04",
+  "ok": true,
+  "value": "Calibri|11",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XD05",
+  "ok": true,
+  "value": "0|0",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XD06",
+  "ok": false,
+  "runtime_error": {
+   "number": 5843,
+   "description": "One of the values passed to this method or property is out of range."
+  }
+ },
+ {
+  "macro": "XSelTab.XD07",
+  "ok": true,
+  "value": "11",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XD08",
+  "ok": true,
+  "value": "-1|0|-1|9999999",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XD09",
+  "ok": true,
+  "value": "7|7",
+  "type": "String"
+ },
+ {
+  "macro": "XSelTab.XD10",
+  "ok": true,
+  "value": "0|Calibri|0",
+  "type": "String"
+ },
+ {
+  "macro": "YCheck.YC01",
+  "ok": true,
+  "value": "-1|0|-1",
+  "type": "String"
+ },
+ {
+  "macro": "YCheck.YC02",
+  "ok": true,
+  "value": "2|Heading 1|Heading 1",
+  "type": "String"
+ },
+ {
+  "macro": "YCheck.YC03",
+  "ok": true,
+  "value": "1|big world\r",
+  "type": "String"
+ },
+ {
+  "macro": "YCheck.YC04",
+  "ok": true,
+  "value": "8|[, ]|[; ]",
+  "type": "String"
+ },
+ {
+  "macro": "YCheck.YC05",
+  "ok": true,
+  "value": "2|11|World\r",
+  "type": "String"
+ },
+ {
+  "macro": "YCheck.YC06",
+  "ok": true,
+  "value": "4|5",
+  "type": "String"
+ },
+ {
+  "macro": "YCheck.YC07",
+  "ok": true,
+  "value": "4|7|7",
+  "type": "String"
+ },
+ {
+  "macro": "YCheck.YC08",
+  "ok": true,
+  "value": "13.5",
+  "type": "String"
+ },
+ {
+  "macro": "YCheck.YC09",
+  "ok": true,
+  "value": "-1|0",
+  "type": "String"
+ },
+ {
+  "macro": "YCheck.YC10",
+  "ok": true,
+  "value": "Hello! world\r|5|6",
+  "type": "String"
+ }
+]

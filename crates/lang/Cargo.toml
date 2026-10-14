@@ -1,0 +1,11 @@
+[package]
+name = "macroost-lang"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "A clean-room interpreter for VBA-compatible macro code."
+
+[dependencies]
+
+[lints]
+workspace = true

@@ -1,0 +1,728 @@
+[
+ {
+  "macro": "Edit.E001",
+  "ok": true,
+  "value": "11,12,13;21,,23;31,22,33;,32,",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E002",
+  "ok": true,
+  "value": "11,12,13,;21,,22,23;31,32,33,",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E003",
+  "ok": true,
+  "value": "11,12,13;21,32,23;31,32,33",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E004",
+  "ok": true,
+  "value": "11,12,13;21,23,23;31,32,33",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E005",
+  "ok": true,
+  "value": "11,12,13;,,;21,22,23;31,32,33|11,,12,13;,,,;21,,22,23;31,,32,33",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E006",
+  "ok": true,
+  "value": "11,12,13;31,32,23;31,,33|12,13,13;32,23,;31,,33",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E007",
+  "ok": true,
+  "value": "11,12,13;,,;21,22,23;31,32,33|11,,12,13;,,,;21,,22,23;31,,32,33",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E008",
+  "ok": true,
+  "value": "31,32,33;31,,32|33;32",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E009",
+  "ok": true,
+  "value": "11,,12,13;31,,32,33",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E010",
+  "ok": true,
+  "value": "=SUM(A1:A3)|3|=$A$3*2|4",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E011",
+  "ok": true,
+  "value": "=SUM(A1:A4)|4|=#REF!|#REF!",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E012",
+  "ok": true,
+  "value": "=A1+C1|=#REF!+B1|#REF!",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E013",
+  "ok": true,
+  "value": "11,12,13|11;21;31|True",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E014",
+  "ok": true,
+  "value": ",,13|11,12",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E015",
+  "ok": true,
+  "value": "=A2*10|30|=A1*10|20",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E016",
+  "ok": true,
+  "value": "10|False|=D1*2|False|True|True",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E017",
+  "ok": true,
+  "value": "11,21;12,22;13,23",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E018",
+  "ok": true,
+  "value": "15;15;15|75;75;75|14;70;70",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E019",
+  "ok": true,
+  "value": "1;x;3",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E020",
+  "ok": true,
+  "value": "7,7,7;7,7,7",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E021",
+  "ok": true,
+  "value": "1|2|0",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E022",
+  "ok": true,
+  "value": "1004|PasteSpecial method of Range class failed",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E023",
+  "ok": true,
+  "value": "11,12;21,22|31",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E024",
+  "ok": true,
+  "value": "True|True|11|False|True|False|5",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E025",
+  "ok": true,
+  "value": "True|False|True|True",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E026",
+  "ok": true,
+  "value": "11,12,13;21,22,23;11,12,13;31,32,33",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E027",
+  "ok": true,
+  "value": "=D1+D2|3",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E028",
+  "ok": true,
+  "value": "x;x;x;x;|x;x;x;x;x;x;",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E029",
+  "ok": true,
+  "value": "4|$A$1:$C$3",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E030",
+  "ok": true,
+  "value": "=#REF!*2|#REF!",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E031",
+  "ok": true,
+  "value": "=SUM(A1:A4)|3",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E032",
+  "ok": true,
+  "value": "=B3+C3|=E1+F1",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E033",
+  "ok": true,
+  "value": "=$A$1+B2|=$A$1+#REF!|#REF!",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E034",
+  "ok": true,
+  "value": "11,,12,13;31,,32,33;,,,",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E035",
+  "ok": true,
+  "value": "a|a",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E036",
+  "ok": true,
+  "value": "1.00|1",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E037",
+  "ok": true,
+  "value": "1|2|True",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E038",
+  "ok": true,
+  "value": "4,4;4,4;4,",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E039",
+  "ok": true,
+  "value": "False|2|False",
+  "type": "String"
+ },
+ {
+  "macro": "Edit.E040",
+  "ok": true,
+  "value": "1004|0",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M001",
+  "ok": true,
+  "value": "Check this|1|True|Comment",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M002",
+  "ok": true,
+  "value": "two|True|0",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M003",
+  "ok": true,
+  "value": "1004|a|True",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M004",
+  "ok": true,
+  "value": "A1=a1,C3=c3,B5=b5,|a1",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M005",
+  "ok": true,
+  "value": "False|True|x",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M006",
+  "ok": true,
+  "value": "copied|2",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M007",
+  "ok": true,
+  "value": "Example|1|https://example.com/|1|0",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M008",
+  "ok": true,
+  "value": "Sheet1!D4|Go|tip|Go|",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M009",
+  "ok": true,
+  "value": "https://example.com/|0|https://example.com/|0|mail",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M010",
+  "ok": true,
+  "value": "1|=Sheet1!$A$1:$A$3|$A$1:$A$3|6",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M011",
+  "ok": true,
+  "value": "=Sheet1!$B$2|$B$2|5|Rate",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M012",
+  "ok": true,
+  "value": "=Sheet1!$A$1|Header|0",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M013",
+  "ok": true,
+  "value": "1|1|Sheet1!Local|=Sheet1!$A$1",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M014",
+  "ok": true,
+  "value": "1004|1004|1004",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M015",
+  "ok": true,
+  "value": "=Sheet1!$A$2:$B$3|=Sheet1!$A$2:$A$3",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M016",
+  "ok": true,
+  "value": "=42|=42|84|42",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M017",
+  "ok": true,
+  "value": "here|$C$3|3|$D$4",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M018",
+  "ok": true,
+  "value": "Alpha,mid,Zed,|Alpha",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M019",
+  "ok": true,
+  "value": "[]|True",
+  "type": "String"
+ },
+ {
+  "macro": "Notes.M020",
+  "ok": true,
+  "value": "=Sheet1!$A$1:$B$2|=Sheet1!R1C1:R2C2",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O001",
+  "ok": true,
+  "value": "Name,abe,Bob,Bob,Cara,Dee|Amount,10,20,5,30,40",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O002",
+  "ok": true,
+  "value": "Name,Dee,Cara,Bob,abe,Bob|Amount,40,30,20,10,5",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O003",
+  "ok": true,
+  "value": "Name,Cara,Bob,Bob,Dee,abe|Region,East,East,North,West,West",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O004",
+  "ok": true,
+  "value": "Name,abe,Bob,Bob,Cara,Dee",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O005",
+  "ok": true,
+  "value": "Name,abe,Bob,Bob,Cara,Dee",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O006",
+  "ok": true,
+  "value": "1,2,3,A,b,True,|True,b,A,3,2,1,",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O007",
+  "ok": true,
+  "value": "1,2,3,4|10,20,30,40|=A1*10",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O008",
+  "ok": true,
+  "value": "Name,Bob,abe,Bob,Cara,Dee",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O009",
+  "ok": true,
+  "value": "True|True|False|$A$1:$C$2,$A$4:$C$4|True|False|False",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O010",
+  "ok": true,
+  "value": "$A$1:$C$2,$A$4:$C$5|90|105",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O011",
+  "ok": true,
+  "value": "$A$4:$A$5|2|$A$4",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O012",
+  "ok": true,
+  "value": "False|False|False",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O013",
+  "ok": true,
+  "value": "$A$4,$A$6|$A$2:$A$3,$A$5",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O014",
+  "ok": true,
+  "value": "Cara,|Cara,East,30;,,",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O015",
+  "ok": false,
+  "runtime_error": {
+   "number": 1004,
+   "description": "No cells were found."
+  }
+ },
+ {
+  "macro": "Ord.O016",
+  "ok": true,
+  "value": "Name,Cara,abe,Bob,Dee,|Region,East,West,East,West,",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O017",
+  "ok": true,
+  "value": "1,1;2,1;1,2;,;,;,",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O018",
+  "ok": true,
+  "value": "x,y,z,,",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O020",
+  "ok": true,
+  "value": "Name,Cara,Bob,Bob,abe,Dee|Name,abe,Bob,Bob,Cara,Dee",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O021",
+  "ok": true,
+  "value": "12345",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O022",
+  "ok": true,
+  "value": "8,9,10,100,x|Double",
+  "type": "String"
+ },
+ {
+  "macro": "Ord.O023",
+  "ok": true,
+  "value": "$A$2,$A$4,$A$6|$A$1:$C$6",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P001",
+  "ok": true,
+  "value": "True|1004|The cell or chart you're trying to change is on a protected sheet. To make a change, unprotect the sheet. You might be requested to enter a password.|1004|The password you supplied is not correct. Verify that the CAPS LOCK key is off and be sure to use the correct capitalization.|True|1004|True|0|False",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P002",
+  "ok": true,
+  "value": "0|ok|1004|True|1004|5",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P003",
+  "ok": true,
+  "value": "0|3|True|True|True|0|True|1004|False",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P004",
+  "ok": true,
+  "value": "The cell or chart you're trying to change is on a protected sheet. To make a change, unprotect the sheet. You might be requested to enter a password.|1004|1004|1004|1004|0|False",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P005",
+  "ok": true,
+  "value": "True|False|False|False|True",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P006",
+  "ok": true,
+  "value": "0|True|0|False|0|False",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P007",
+  "ok": true,
+  "value": "1004|True|0|False",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P008",
+  "ok": true,
+  "value": "1004|True|0|False",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P009",
+  "ok": true,
+  "value": "True|False|True|False|True|True|True|True",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P010",
+  "ok": false,
+  "runtime_error": {
+   "number": 1004,
+   "description": "Application-defined or object-defined error"
+  }
+ },
+ {
+  "macro": "Prot.P011",
+  "ok": true,
+  "value": "1004|False|0|True",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P012",
+  "ok": true,
+  "value": "True|1004|1|1004|Sheet1|1004|True|0|False",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P013",
+  "ok": true,
+  "value": "False|False|True|cells still editable|False",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P014",
+  "ok": true,
+  "value": "1004|The password you supplied is not correct. Verify that the CAPS LOCK key is off and be sure to use the correct capitalization.|True|0|False",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P015",
+  "ok": true,
+  "value": "True|True|False|0|True|1004",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P016",
+  "ok": true,
+  "value": "0|$A$1|0",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P017",
+  "ok": true,
+  "value": "0|False|0|False",
+  "type": "String"
+ },
+ {
+  "macro": "Prot.P018",
+  "ok": true,
+  "value": "1004|9||0",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D001",
+  "ok": true,
+  "value": "B2,C3,B5,A1,",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D002",
+  "ok": true,
+  "value": "B5|A1|B5",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D003",
+  "ok": true,
+  "value": "B2|B5|C3",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D004",
+  "ok": true,
+  "value": "C3|B5|B2",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D005",
+  "ok": true,
+  "value": "A7|True|A7",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D006",
+  "ok": true,
+  "value": "A4|A4|C6",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D007",
+  "ok": true,
+  "value": "C3|pineapple|A1",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D008",
+  "ok": true,
+  "value": "A1|B5",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D009",
+  "ok": true,
+  "value": "2|1|2",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D010",
+  "ok": true,
+  "value": "pear|pear pie|pinepear|pear|banana",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D011",
+  "ok": true,
+  "value": "X|Apple pie|APPLE",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D012",
+  "ok": true,
+  "value": "a.b.c|=\"x\"&\"y\"|xy",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D013",
+  "ok": true,
+  "value": "1934|Double|19/1/1934",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D014",
+  "ok": true,
+  "value": "a+b|axxb|Z|Z",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D015",
+  "ok": true,
+  "value": "True|abc|True|ac",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D016",
+  "ok": true,
+  "value": "B2|B4",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D017",
+  "ok": true,
+  "value": "False|False",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D018",
+  "ok": true,
+  "value": "C3|B2",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D019",
+  "ok": true,
+  "value": "A2|A2",
+  "type": "String"
+ },
+ {
+  "macro": "Srch.D020",
+  "ok": false,
+  "runtime_error": {
+   "number": 91,
+   "description": "Object variable or With block variable not set"
+  }
+ }
+]

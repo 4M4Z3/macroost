@@ -1,0 +1,12 @@
+[package]
+name = "macroost-sheet"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "A VBA-compatible spreadsheet object model (Application, Workbook, Worksheet, Range) over a workbook trait."
+
+[dependencies]
+macroost-lang = { path = "../lang" }
+
+[lints]
+workspace = true

@@ -1,0 +1,514 @@
+[
+ {
+  "macro": "Deck.T01",
+  "ok": true,
+  "value": "1|2|slides.pptm|Presentation",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T02",
+  "ok": true,
+  "value": "2|2|Slide2|257|256",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T03",
+  "ok": true,
+  "value": "3|3|Slide3|12|0|258",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T04",
+  "ok": true,
+  "value": "2|2|2|Slide1|Title 1;Text Placeholder 2;",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T05",
+  "ok": true,
+  "value": "66,28.75,828,104.375|66,143.75,828,342.625",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T06",
+  "ok": true,
+  "value": "14|-1|1|2|2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T07",
+  "ok": true,
+  "value": "2|Title 1;Subtitle 2;|120,88.37504,720,188|120,283.625,720,130.375|3|4",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T08",
+  "ok": true,
+  "value": "1|Title 1;|11|2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T09",
+  "ok": true,
+  "value": "TextBox 1|17|10,20,200,50|-1|2|Shape",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T10",
+  "ok": true,
+  "value": "Hello|29.08126|200",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T11",
+  "ok": true,
+  "value": "Rectangle 1|1|1|-1|100,100,50,40|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T12",
+  "ok": true,
+  "value": "Oval 1|9|1",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T13",
+  "ok": true,
+  "value": "TextBox 1;Rectangle 2;Oval 3;Table 4;TextBox 5;|5",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T14",
+  "ok": true,
+  "value": "5|8|Rectangle 2|Rectangle 1",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T15",
+  "ok": true,
+  "value": "5|Box|Box",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T16",
+  "ok": true,
+  "value": "2|Rectangle 1;Rectangle 3;|3",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T17",
+  "ok": true,
+  "value": "10.25,20.5,33.3,0.1|Single",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T18",
+  "ok": true,
+  "value": "2|Slide2|1|Slide3|2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T19",
+  "ok": true,
+  "value": "2|3|1|Slide3",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T20",
+  "ok": true,
+  "value": "3|2|Slide3|1|Slide2|3|SlideRange",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T21",
+  "ok": true,
+  "value": "Rectangle 2|112,112|2|ShapeRange|1",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T22",
+  "ok": true,
+  "value": "123|Rectangle 3;Rectangle 1;Oval 2;|1",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T23",
+  "ok": true,
+  "value": "Oval 2;Rectangle 3;Rectangle 1;|3",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T24",
+  "ok": true,
+  "value": "Oval 2;Rectangle 1;Rectangle 3;|Oval 2;Rectangle 3;Rectangle 1;",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T25",
+  "ok": true,
+  "value": "1|1|1|0|2|1|-1|-1",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T26",
+  "ok": true,
+  "value": "960|540|1|1|Single",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T27",
+  "ok": true,
+  "value": "5|6|2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T28",
+  "ok": true,
+  "value": "3|Two\r|4|5|2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T29",
+  "ok": true,
+  "value": "1|2|Hel|lo World|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T30",
+  "ok": true,
+  "value": "6|bcd|e|6|2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T31",
+  "ok": true,
+  "value": "0|18|0|Calibri|0|0|Single",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T32",
+  "ok": true,
+  "value": "24|-1|-1|10.5",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T33",
+  "ok": true,
+  "value": "255|1|197121",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T34",
+  "ok": true,
+  "value": "44|28|Calibri Light|Calibri",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T35",
+  "ok": true,
+  "value": "Table 1|19|-1|2|3|0|Table",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T36",
+  "ok": true,
+  "value": "B1|C2|[]",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T37",
+  "ok": true,
+  "value": "10,10,300,100|100|50|18",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T38",
+  "ok": true,
+  "value": "450|150|100",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T39",
+  "ok": true,
+  "value": "Hello There World|There|7|5",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T40",
+  "ok": true,
+  "value": "Nothing|True|Hello",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T41",
+  "ok": true,
+  "value": "7|1|5|4|3",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T42",
+  "ok": true,
+  "value": "13|7|4",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T43",
+  "ok": true,
+  "value": "start-mid-end|!|start-mid-end!",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T44",
+  "ok": true,
+  "value": "0|0|-1",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T45",
+  "ok": true,
+  "value": "18|2|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T46",
+  "ok": true,
+  "value": "Slide1=1;Slide3=2;Slide2=3;",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T47",
+  "ok": true,
+  "value": "2|1|3|Rectangle 3",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T48",
+  "ok": true,
+  "value": "-1|Title 1|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T49",
+  "ok": true,
+  "value": "-2147188160|True",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T50",
+  "ok": true,
+  "value": "-2147188160|True|-2147188160",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T51",
+  "ok": true,
+  "value": "12|Blank|5|Title and Content",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T52",
+  "ok": true,
+  "value": "5|Slide5|260",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T53",
+  "ok": true,
+  "value": "Slide3|Slide1|Slide2|3",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T54",
+  "ok": true,
+  "value": "0|-1|0|45|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T55",
+  "ok": true,
+  "value": "2|4|Rectangle 3",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T56",
+  "ok": true,
+  "value": "257|Slide2|Slide1",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T57",
+  "ok": true,
+  "value": "Slides|Slide|Shapes|TextFrame|Cell|TextRange|PageSetup|SlideShowSettings",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T58",
+  "ok": true,
+  "value": "7.2|7.2|3.6|3.6|-1|1|1|1",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T59",
+  "ok": true,
+  "value": "1|2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T60",
+  "ok": true,
+  "value": "2|16777215|18|-1|0|3|50",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T61",
+  "ok": true,
+  "value": "12874308|5319703|-1|-1|1|65280",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T62",
+  "ok": true,
+  "value": "0|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T63",
+  "ok": true,
+  "value": "3|3|200.0001|66.66669|40",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T64",
+  "ok": true,
+  "value": "-2147188160|2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T65",
+  "ok": true,
+  "value": "-2147188160|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T66",
+  "ok": true,
+  "value": "3|ab|cd|ef|-2|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T67",
+  "ok": true,
+  "value": "4|quick |fox|6",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T68",
+  "ok": true,
+  "value": "2|0|Slide2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T69",
+  "ok": true,
+  "value": "258|Slide3|3|3",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T70",
+  "ok": true,
+  "value": "50.8922|20",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T71",
+  "ok": false,
+  "runtime_error": {
+   "number": 438,
+   "description": "Object doesn't support this property or method"
+  }
+ },
+ {
+  "macro": "Deck.T72",
+  "ok": true,
+  "value": "aXYZc|5|new",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T73",
+  "ok": true,
+  "value": "36|50.8922",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T74",
+  "ok": true,
+  "value": "50|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T75",
+  "ok": true,
+  "value": "1|0|Text Placeholder 2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T76",
+  "ok": true,
+  "value": "0|0|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T77",
+  "ok": true,
+  "value": "Rounded Rectangle 1=5;Isosceles Triangle 2=7;5-Point Star 3=92;Right Arrow 4=33;Diamond 5=4;Hexagon 6=10;",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T78",
+  "ok": true,
+  "value": "57.6|28.8|100",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T79",
+  "ok": true,
+  "value": "-1|16777215|18|0|0|18",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T80",
+  "ok": true,
+  "value": "2|0|960|540|slides.pptm|2|Title and Text|12",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T81",
+  "ok": true,
+  "value": "5|2|10|13",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T82",
+  "ok": true,
+  "value": "0|1|-1|1|0|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T83",
+  "ok": true,
+  "value": "16:2:Title 1;Content Placeholder 2;:Title and Content/3:3:Title 1;Text Placeholder 2;Text Placeholder 3;:Title and 2-Column Text/11:1:Title 1;:Title Only/6",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T84",
+  "ok": true,
+  "value": "29.08126|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck.T85",
+  "ok": true,
+  "value": "72.70315|87.24378",
+  "type": "String"
+ }
+]

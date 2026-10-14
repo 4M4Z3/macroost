@@ -1,0 +1,20 @@
+[
+ {
+  "macro": "Win.W1",
+  "ok": true,
+  "value": "slides_window.pptm|2|True|Presentation",
+  "type": "String"
+ },
+ {
+  "macro": "Win.W2",
+  "ok": true,
+  "value": "1|Slide3|3|2",
+  "type": "String"
+ },
+ {
+  "macro": "Win.W3",
+  "ok": true,
+  "value": "960|1|Application",
+  "type": "String"
+ }
+]

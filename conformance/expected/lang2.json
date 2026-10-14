@@ -1,0 +1,246 @@
+[
+ {
+  "macro": "Prog.P001",
+  "ok": true,
+  "value": "6|32767",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P002",
+  "ok": true,
+  "value": "0|Long|32768",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P003",
+  "ok": true,
+  "value": "6|8|32767",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P004",
+  "ok": true,
+  "value": "10,7,4,1,after=-2",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P005",
+  "ok": true,
+  "value": "0,0.25,0.5,0.75,1,after=1.25",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P006",
+  "ok": true,
+  "value": "1,2,8,9,10,",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P007",
+  "ok": true,
+  "value": "11,21,31,",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P008",
+  "ok": true,
+  "value": "10,-10,11",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P009",
+  "ok": true,
+  "value": "a[5]b",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P010",
+  "ok": true,
+  "value": "5|0|0",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P011",
+  "ok": true,
+  "value": "2",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P012",
+  "ok": true,
+  "value": "3",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P013",
+  "ok": true,
+  "value": "6.5|0|True,7|False,2",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P014",
+  "ok": true,
+  "value": "3",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P015",
+  "ok": true,
+  "value": "5|9",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P016",
+  "ok": true,
+  "value": "03|04|String|0",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P017",
+  "ok": true,
+  "value": "0|9",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P018",
+  "ok": true,
+  "value": "range|4to6",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P019",
+  "ok": true,
+  "value": "2|True|Date|10/14/2026|False",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P020",
+  "ok": true,
+  "value": "21",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P021",
+  "ok": true,
+  "value": "HEYYo",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P022",
+  "ok": true,
+  "value": "312|z,a|2|False",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P023",
+  "ok": true,
+  "value": "2|3|1",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P024",
+  "ok": true,
+  "value": "Empty|True|True|True|0",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P025",
+  "ok": true,
+  "value": "True|x|True|False|True",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P026",
+  "ok": true,
+  "value": "12F45",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P027",
+  "ok": true,
+  "value": "11:Division by zero:0",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P028",
+  "ok": true,
+  "value": "False|0.3|True|0.30000000000000000",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P029",
+  "ok": true,
+  "value": "6|5|9|a\tb/c",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P030",
+  "ok": true,
+  "value": "2/1/2026|1|5|31|11:59:59 PM",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P031",
+  "ok": true,
+  "value": "134",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P032",
+  "ok": true,
+  "value": "Double|Long|Long|Double|Long|Integer",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P033",
+  "ok": true,
+  "value": "zzzaQt",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P034",
+  "ok": true,
+  "value": "6|255",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P035",
+  "ok": true,
+  "value": "0.3333|Currency|0.9999",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P036",
+  "ok": true,
+  "value": "-1|1|2|3|-1,234,567.9|zero",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P037",
+  "ok": true,
+  "value": "3||ab,abc",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P038",
+  "ok": true,
+  "value": "5050",
+  "type": "String"
+ },
+ {
+  "macro": "Prog.P039",
+  "ok": false,
+  "runtime_error": {
+   "number": 11,
+   "description": "Division by zero"
+  }
+ },
+ {
+  "macro": "Prog.P040",
+  "ok": false,
+  "runtime_error": {
+   "number": 11,
+   "description": "Division by zero"
+  }
+ }
+]

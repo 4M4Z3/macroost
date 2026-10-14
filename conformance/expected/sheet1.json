@@ -1,0 +1,152 @@
+[
+ {
+  "macro": "Sheetops.X001",
+  "ok": true,
+  "value": "$A$10",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X002",
+  "ok": true,
+  "value": "10|10|$XFD$1",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X003",
+  "ok": true,
+  "value": "$A$3|$A$4|$A$7|$A$1048576|$A$7",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X004",
+  "ok": true,
+  "value": "$D$3|$B$2:$C$4|A1:C4|$A$3",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X005",
+  "ok": true,
+  "value": "4|3|12|$D$3|$C$3|1048576",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X006",
+  "ok": true,
+  "value": "42|x|Variant()|2x3",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X007",
+  "ok": true,
+  "value": "Double|two|Double|Boolean|Empty|Date|1/2/2026",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X008",
+  "ok": true,
+  "value": "|True|2|6",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X009",
+  "ok": true,
+  "value": "4|4",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X010",
+  "ok": true,
+  "value": "3|3||True",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X011",
+  "ok": true,
+  "value": "$B$5|$C$9|True",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X012",
+  "ok": true,
+  "value": "3|30|=A1*10|True",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X013",
+  "ok": true,
+  "value": "1,234.50|Date|#,##0.00",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X014",
+  "ok": true,
+  "value": "255|True|False|255",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X015",
+  "ok": true,
+  "value": "$B$2:$D$6|$B$2:$C$3|$B$2",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X016",
+  "ok": true,
+  "value": "$C$5|$C$5|Sheet1|$B$2:$C$3|$B$2",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X017",
+  "ok": true,
+  "value": "A1,B1,A2,B2,",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X018",
+  "ok": true,
+  "value": "1|Sheet1|1",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X019",
+  "ok": true,
+  "value": "True|0|True|True",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X020",
+  "ok": true,
+  "value": "42|s|7|42",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X021",
+  "ok": true,
+  "value": "$A1|$A1:$B2|27|28|16384",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X022",
+  "ok": true,
+  "value": "3|3|3|2",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X023",
+  "ok": true,
+  "value": "True|False",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X024",
+  "ok": true,
+  "value": "True|$1:$1|$C:$C",
+  "type": "String"
+ },
+ {
+  "macro": "Sheetops.X025",
+  "ok": true,
+  "value": "2|0",
+  "type": "String"
+ }
+]

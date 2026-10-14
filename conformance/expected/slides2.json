@@ -1,0 +1,212 @@
+[
+ {
+  "macro": "Deck2.U01",
+  "ok": true,
+  "value": "Slide 1/TextBox 1;Slide 2/TextBox 1;",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U02",
+  "ok": true,
+  "value": "5|Title 2|2|Slide5",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U03",
+  "ok": true,
+  "value": "2|baz bar foo|baz",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U04",
+  "ok": true,
+  "value": "9|6|66.66669|200|200.0001",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U05",
+  "ok": true,
+  "value": "3|Rectangle 3|50",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U06",
+  "ok": true,
+  "value": "140|480|120|60",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U07",
+  "ok": true,
+  "value": "0|-1|-2|3|-2|3",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U08",
+  "ok": true,
+  "value": "5|3|two|15|True",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U09",
+  "ok": true,
+  "value": "Slide3;Slide1;2|3",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U10",
+  "ok": true,
+  "value": "1|Rectangle 2|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U11",
+  "ok": true,
+  "value": "-2147188160|-2147467259",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U12",
+  "ok": true,
+  "value": "-2147024809|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U13",
+  "ok": true,
+  "value": "2|2|200|80",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U14",
+  "ok": true,
+  "value": "28.8|70|98.8",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U15",
+  "ok": true,
+  "value": "600|960|1|2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U16",
+  "ok": true,
+  "value": "orig|copy|TextBox 1",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U17",
+  "ok": true,
+  "value": "Slide2|Slide3|Slide1|3",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U18",
+  "ok": true,
+  "value": "0|2|0",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U19",
+  "ok": true,
+  "value": "5|e|30|-2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U20",
+  "ok": true,
+  "value": "hello |1|hello world|11",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U21",
+  "ok": true,
+  "value": "3|3|6|2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U22",
+  "ok": true,
+  "value": "3=44;4=28;Deck",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U23",
+  "ok": true,
+  "value": "40|94.51409|65.43284",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U24",
+  "ok": true,
+  "value": "31.90858|10",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U25",
+  "ok": true,
+  "value": "1971210|0|2.5|0|100",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U26",
+  "ok": true,
+  "value": "Label|dup me|22|2",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U27",
+  "ok": true,
+  "value": "Title Only|Title 1|28.75|Calibri Light",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U28",
+  "ok": true,
+  "value": "The cog sog on the mog",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U29",
+  "ok": true,
+  "value": "ac|2|0|18",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U30",
+  "ok": true,
+  "value": "2|Slide2|257|Intro",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U31",
+  "ok": true,
+  "value": "40|330",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U32",
+  "ok": true,
+  "value": "Arial|Arial|1",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U33",
+  "ok": true,
+  "value": "-2147188160|0|1|640|58.4",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U34",
+  "ok": true,
+  "value": "2|0|Slide1|256",
+  "type": "String"
+ },
+ {
+  "macro": "Deck2.U35",
+  "ok": true,
+  "value": "20|31.50472",
+  "type": "String"
+ }
+]

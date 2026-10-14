@@ -1,0 +1,638 @@
+[
+ {
+  "macro": "Addr.A001",
+  "ok": true,
+  "value": "$B$3:$D$7|B3:D7|B$3:D$7|$B3:$D7|B3:D7",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A002",
+  "ok": true,
+  "value": "R5C3|R[4]C[2]|R[4]C[2]|R[3]C[-2]|R5C[1]",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A003",
+  "ok": true,
+  "value": "[sheet2.xlsm]Sheet1!$A$1:$C$3|[sheet2.xlsm]Sheet1!A1|[sheet2.xlsm]Sheet1!R2C2:R3C3",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A004",
+  "ok": true,
+  "value": "$A:$A|$2:$4|B:D|$1:$1048576|C1|R3",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A005",
+  "ok": true,
+  "value": "$A$1,$C$3:$D$4,$F$6|3|6|RC,R[2]C[2]:R[3]C[3],R[5]C[5]",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A006",
+  "ok": true,
+  "value": "$A$1|$H$3|$C$4:$D$5|$D$3:$E$4|$B$2,$D$4",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A007",
+  "ok": true,
+  "value": "1004|Application-defined or object-defined error|True|1004",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A008",
+  "ok": true,
+  "value": "$B$2:$B$4|$B$2:$E$2|$B$2:$C$3|$B$2|$B$2:$C$4",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A009",
+  "ok": true,
+  "value": "1004|Application-defined or object-defined error",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A010",
+  "ok": true,
+  "value": "$A$1:$B$2,$D$4|$A$1:$B$2,$B$2:$C$3|$A$1:$A$2|3|1",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A011",
+  "ok": true,
+  "value": "$B$3:$C$5|True|$A$3|$C$3",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A012",
+  "ok": true,
+  "value": "$A$2:$B$3,$D$2:$E$3|2|8",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A013",
+  "ok": true,
+  "value": "A1:B2=4,D4:E5=4,G7=1,|$D$4:$E$5|1",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A014",
+  "ok": true,
+  "value": "$5:$5|$C:$D|1|16384|2",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A015",
+  "ok": true,
+  "value": "$3:$3|$B:$B|$C:$E|$2:$5|$B$3:$E$3|$D$2:$D$9",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A016",
+  "ok": false,
+  "runtime_error": {
+   "number": 6,
+   "description": "Overflow"
+  }
+ },
+ {
+  "macro": "Addr.A017",
+  "ok": true,
+  "value": "$C$2|$D$2|$E$1|$A$2|$D$2|$B$5",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A018",
+  "ok": true,
+  "value": "$B$2:$E$4|$A$1:$C$3|$B$2:$D$4|$B$2:$E$5",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A019",
+  "ok": false,
+  "runtime_error": {
+   "number": 1004,
+   "description": "Application-defined or object-defined error"
+  }
+ },
+ {
+  "macro": "Addr.A020",
+  "ok": true,
+  "value": "$C$2|$D$3|$B$2|$C$3",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A021",
+  "ok": true,
+  "value": "A1:C1,A2:C2,|A1:A2,B1:B2,C1:C2,",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A022",
+  "ok": true,
+  "value": "2|2|$B$2:$D$5|5|1048576|16384",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A023",
+  "ok": true,
+  "value": "1004|Method 'Range' of object '_Global' failed|1004|1004",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A024",
+  "ok": true,
+  "value": "$B$2|$B$2:$C$3|$B$2|$A$1|$A$1:$C$3",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A025",
+  "ok": true,
+  "value": "$B$2|$B$2:$D$2|$C$3",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A026",
+  "ok": true,
+  "value": "$B$1|$A$1|$D$3",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A027",
+  "ok": true,
+  "value": "$B$2|$C$3|2|$C$2:$C$3|$C$2:$C$3",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A028",
+  "ok": true,
+  "value": "R[-2]C1|RC|R[-1]C[-1]:RC",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A029",
+  "ok": true,
+  "value": "A1,C1,E1|$1:$1,$3:$3|2097152",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A030",
+  "ok": true,
+  "value": "[sheet2.xlsm]Sheet1!$B$2|C4|$D$5",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A031",
+  "ok": true,
+  "value": "$D$3|$B$4|$B$4:$D$4",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A032",
+  "ok": true,
+  "value": "Range|Range|Areas|Range|Range",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A033",
+  "ok": true,
+  "value": "3|3|3|3|2|8",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A034",
+  "ok": true,
+  "value": "B2:C3|A1:C3|C3",
+  "type": "String"
+ },
+ {
+  "macro": "Addr.A035",
+  "ok": true,
+  "value": "R2C2|R[1]C2|R2C[1]",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N001",
+  "ok": true,
+  "value": "$C$1|$C$1048576|$A$5|$XFD$5",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N002",
+  "ok": true,
+  "value": "$F$2|$B$2|$F$2|$B$2|$F$2",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N003",
+  "ok": true,
+  "value": "C2,C5,C6,C9,C1048576|C6,C5,C2,C2,C9",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N004",
+  "ok": true,
+  "value": "$A$1|$A$1|$A$1048576|$XFD$1",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N005",
+  "ok": true,
+  "value": "$A$1048576|$A$1|$XFD$1|$A$1",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N006",
+  "ok": true,
+  "value": "5|2|2",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N007",
+  "ok": true,
+  "value": "$B$2|$B$3|0",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N008",
+  "ok": true,
+  "value": "$C$4|$C$4|$A$1",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N009",
+  "ok": true,
+  "value": "$B$2:$D$4|$F$6|$A$1:$D$4|$H$9",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N010",
+  "ok": true,
+  "value": "$B$2:$D$4|$B$2:$E$5|$E$6",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N011",
+  "ok": true,
+  "value": "$A$1:$D$5|$A$7:$D$10|5",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N012",
+  "ok": true,
+  "value": "$A$1|$C$3|$C$3:$E$8|$C$3",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N013",
+  "ok": true,
+  "value": "$B$2|$A$1",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N014",
+  "ok": true,
+  "value": "$C$3|$C$2:$F$3|8",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N015",
+  "ok": true,
+  "value": "$B$2,$D$4|$C$3|$D$4",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N016",
+  "ok": true,
+  "value": "$A$1|$A$2|$A$3|$A$4|$A$5|$A$6",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N017",
+  "ok": true,
+  "value": "$B$2,$A$3|2",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N018",
+  "ok": true,
+  "value": "1004|No cells were found.|True|1004",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N019",
+  "ok": true,
+  "value": "$A$1,$A$3,$A$5:$A$6|4|3",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N020",
+  "ok": true,
+  "value": "$A$1:$A$4,$C$1:$C$4",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N021",
+  "ok": true,
+  "value": "$F$9|$B$2",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N022",
+  "ok": true,
+  "value": "$A$1,$C$1,$E$1|3|$B$1,$D$1",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N023",
+  "ok": true,
+  "value": "$A$1,$B$5|$B$1:$B$4,$A$2:$A$5",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N024",
+  "ok": true,
+  "value": "$A$11|$A$1:$A$10|11",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N025",
+  "ok": true,
+  "value": "25|4|20|4",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N026",
+  "ok": true,
+  "value": "$B$3:$C$3",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N027",
+  "ok": true,
+  "value": "$A$2:$B$3|$A$2:$B$3|$B$2:$C$3",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N028",
+  "ok": true,
+  "value": "$A$1|0",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N029",
+  "ok": true,
+  "value": "$A$1,$A$3|$A$2|1",
+  "type": "String"
+ },
+ {
+  "macro": "Nav.N030",
+  "ok": true,
+  "value": "$D$2|$B$2|$D$2|$B$2",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S001",
+  "ok": true,
+  "value": "2|True|Sheet1|True|1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S002",
+  "ok": true,
+  "value": "Sheet1,Data|2|Data",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S003",
+  "ok": true,
+  "value": "A,Sheet1,B,C|4|C",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S004",
+  "ok": true,
+  "value": "4|1|Sheet1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S005",
+  "ok": true,
+  "value": "1|Sheet1|Sheet1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S006",
+  "ok": true,
+  "value": "Sheet1,Y|Y",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S007",
+  "ok": true,
+  "value": "1004|A workbook must contain at least one visible worksheet. \n\nTo hide, delete, or move the selected sheet(s), you must first insert a new sheet or unhide a sheet that is already hidden.|1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S008",
+  "ok": true,
+  "value": "9|Subscript out of range|True",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S009",
+  "ok": true,
+  "value": "1004|Sheet1|1004|Sheet1|1004|Sheet1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S010",
+  "ok": true,
+  "value": "1004|That name is already taken. Try a different one.|Sheet1,Two",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S011",
+  "ok": true,
+  "value": "Sheet1,B,C,A|C,Sheet1,B,A|2",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S012",
+  "ok": true,
+  "value": "Sheet1,Sheet1 (2)|Sheet1 (2)|42|=A1*2|84",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S013",
+  "ok": true,
+  "value": "Sheet1 (2),Sheet1,Sheet1 (3)",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S014",
+  "ok": true,
+  "value": "0|2|Sheet1|2|-1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S015",
+  "ok": true,
+  "value": "1004|-1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S016",
+  "ok": true,
+  "value": "0|H|1004|H",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S017",
+  "ok": true,
+  "value": "1:Sheet1,2:P,3:Q,",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S018",
+  "ok": true,
+  "value": "N2|True|True|Sheet1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S019",
+  "ok": true,
+  "value": "Sheet1|o|True",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S020",
+  "ok": true,
+  "value": "Sheets|Sheets|Worksheet|Worksheet|1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S021",
+  "ok": true,
+  "value": "True|True|2",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S022",
+  "ok": true,
+  "value": "True|Workbook|Sheet1|Sheet1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S023",
+  "ok": true,
+  "value": "'[sheet2.xlsm]My Data'!$A$1|5",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S024",
+  "ok": true,
+  "value": "S2|Sheet1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S025",
+  "ok": true,
+  "value": "1004|Z",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S026",
+  "ok": true,
+  "value": "=Calc2!A1*3|30",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S027",
+  "ok": true,
+  "value": "=#REF!A1|#REF!",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S028",
+  "ok": true,
+  "value": "Mv,Sheet1|Mv|Mv",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S029",
+  "ok": true,
+  "value": "Sheet1,W1,W3,W5",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S030",
+  "ok": true,
+  "value": "2|2|still writable",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S031",
+  "ok": true,
+  "value": "Copied (2)|12|True|Sheet1,Copied,Copied (2)",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S032",
+  "ok": true,
+  "value": "Sheet1|Sheet1|1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S033",
+  "ok": true,
+  "value": "9|Subscript out of range|9",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S034",
+  "ok": true,
+  "value": "1004|3|True",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S035",
+  "ok": true,
+  "value": "1004|Apos|0|Has 'inner' quote|'[sheet2.xlsm]Has ''inner'' quote'!$A$1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S036",
+  "ok": true,
+  "value": "$A$1|$A$1|$B$5",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S037",
+  "ok": false,
+  "runtime_error": {
+   "number": 1004,
+   "description": "Unable to set the Visible property of the Sheets class"
+  }
+ },
+ {
+  "macro": "WsOps.S038",
+  "ok": true,
+  "value": "Movable,Sheet1|2",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S039",
+  "ok": true,
+  "value": "2|1|Sheet1",
+  "type": "String"
+ },
+ {
+  "macro": "WsOps.S040",
+  "ok": true,
+  "value": "3|=SUM('Ren 2'!A1:A3)",
+  "type": "String"
+ }
+]
