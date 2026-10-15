@@ -1,0 +1,422 @@
+[
+ {
+  "macro": "Dec.D01",
+  "ok": true,
+  "value": "Decimal:1",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D02",
+  "ok": true,
+  "value": "Decimal:0.1",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D03",
+  "ok": true,
+  "value": "Decimal:1.5",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D04",
+  "ok": true,
+  "value": "Decimal:0.3",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D05",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D06",
+  "ok": true,
+  "value": "Decimal:79228162514264337593543950335",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D07",
+  "ok": true,
+  "value": "ERR 6",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D08",
+  "ok": true,
+  "value": "Decimal:-79228162514264337593543950335",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D09",
+  "ok": true,
+  "value": "Decimal:0.0000000000000000000000000001",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D10",
+  "ok": true,
+  "value": "Decimal:1.2345678901234567890123456789",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D11",
+  "ok": true,
+  "value": "Decimal:0.3333333333333333333333333333",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D12",
+  "ok": true,
+  "value": "Decimal:0.6666666666666666666666666667",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D13",
+  "ok": true,
+  "value": "Decimal:0.125",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D14",
+  "ok": true,
+  "value": "Decimal:2.5",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D15",
+  "ok": true,
+  "value": "Decimal:2.5",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D16",
+  "ok": true,
+  "value": "Decimal:3.5",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D17",
+  "ok": true,
+  "value": "Decimal:3.5",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D18",
+  "ok": true,
+  "value": "Decimal:3.75",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D19",
+  "ok": true,
+  "value": "Decimal:4",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D20",
+  "ok": true,
+  "value": "Decimal:4",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D21",
+  "ok": true,
+  "value": "Decimal:0.5",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D22",
+  "ok": true,
+  "value": "Decimal:1.5",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D23",
+  "ok": true,
+  "value": "Decimal:4",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D24",
+  "ok": true,
+  "value": "String:1.5x",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D25",
+  "ok": true,
+  "value": "Decimal:-1.5",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D26",
+  "ok": true,
+  "value": "Decimal:2.25",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D27",
+  "ok": true,
+  "value": "Long:3",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D28",
+  "ok": true,
+  "value": "Long:0",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D29",
+  "ok": true,
+  "value": "Double:1024",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D30",
+  "ok": true,
+  "value": "Decimal:-1.5",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D31",
+  "ok": true,
+  "value": "ERR 11",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D32",
+  "ok": true,
+  "value": "ERR 6",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D33",
+  "ok": true,
+  "value": "ERR 6",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D34",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D35",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D36",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D37",
+  "ok": true,
+  "value": "Long:14",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D38",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D39",
+  "ok": true,
+  "value": "Double:1.25",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D40",
+  "ok": true,
+  "value": "Long:2",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D41",
+  "ok": true,
+  "value": "Integer:4",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D42",
+  "ok": true,
+  "value": "String:1000000",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D43",
+  "ok": true,
+  "value": "Decimal:-3",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D44",
+  "ok": true,
+  "value": "Decimal:-2",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D45",
+  "ok": true,
+  "value": "Decimal:2.5",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D46",
+  "ok": true,
+  "value": "Integer:-1",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D47",
+  "ok": true,
+  "value": "Decimal:2",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D48",
+  "ok": true,
+  "value": "Decimal:2.34",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D49",
+  "ok": true,
+  "value": "Decimal:2.36",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D50",
+  "ok": true,
+  "value": "String:1,234.50",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D51",
+  "ok": true,
+  "value": "Decimal:1000",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D52",
+  "ok": true,
+  "value": "Decimal:0.0015",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D53",
+  "ok": true,
+  "value": "Decimal:100000000000000000000",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D54",
+  "ok": true,
+  "value": "Decimal:123456789.123456",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D55",
+  "ok": true,
+  "value": "Decimal:0.333333333333333",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D56",
+  "ok": true,
+  "value": "Decimal:1.2345",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D57",
+  "ok": true,
+  "value": "Decimal:46024",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D58",
+  "ok": true,
+  "value": "Decimal:-1",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D59",
+  "ok": true,
+  "value": "ERR 13",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D60",
+  "ok": true,
+  "value": "Decimal:12.5",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D61",
+  "ok": true,
+  "value": "Decimal:1",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D62",
+  "ok": true,
+  "value": "Double:1.25",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D63",
+  "ok": true,
+  "value": "String:1.25",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D64",
+  "ok": true,
+  "value": "Decimal:0",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D65",
+  "ok": true,
+  "value": "Decimal:0",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D66",
+  "ok": true,
+  "value": "Decimal:400",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D67",
+  "ok": true,
+  "value": "Decimal:1.0000000000000000000000000003",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D68",
+  "ok": true,
+  "value": "Decimal:0.9999999999999999999999999999",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D69",
+  "ok": true,
+  "value": "Decimal:12345678901234567890000000000",
+  "type": "String"
+ },
+ {
+  "macro": "Dec.D70",
+  "ok": true,
+  "value": "Boolean:True",
+  "type": "String"
+ }
+]

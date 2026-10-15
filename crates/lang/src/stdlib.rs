@@ -13,6 +13,7 @@ pub mod format;
 use std::cell::{Cell, RefCell};
 use std::rc::Rc;
 
+use crate::decimal::Decimal;
 use crate::error::{Result, RuntimeError, standard_description};
 use crate::object::Host;
 use crate::ops::{compare_text, currency_of, fold_unit};
@@ -50,8 +51,7 @@ fn dispatch(name: &str, args: &[Value], host: &mut dyn Host) -> Option<Result<Va
         "clngptr" => conv(args, |v| Ok(Value::LongLong(v.to_i64()?))),
         "cbyte" => conv(args, |v| u8::try_from(v.to_i64()?).map(Value::Byte).map_err(|_| RuntimeError::overflow())),
         "cdbl" => conv(args, |v| Ok(Value::Double(v.to_f64()?))),
-        // ORACLE: there is no Decimal type yet; CDec returns a Double.
-        "cdec" => conv(args, |v| Ok(Value::Double(v.to_f64()?))),
+        "cdec" => conv(args, |v| Ok(Value::Decimal(Decimal::from_value(v)?))),
         "csng" => conv(args, |v| {
             let x = v.to_f64()?;
             if x.is_finite() && x.abs() > f64::from(f32::MAX) {
@@ -585,6 +585,7 @@ fn f_int(args: &[Value], fix: bool) -> Result<Value> {
             let q = if fix { n / 10_000 } else { n.div_euclid(10_000) };
             Value::Currency(q * 10_000)
         }
+        Value::Decimal(d) => Value::Decimal(d.trunc(!fix)),
         Value::Date(d) => Value::Date(r(d)),
         Value::String(_) => Value::Double(r(v.to_f64()?)),
         other => Value::Integer(other.to_i16()?),
@@ -1059,6 +1060,7 @@ fn f_abs(args: &[Value]) -> Result<Value> {
         Value::Single(x) => Value::Single(x.abs()),
         Value::Double(x) => Value::Double(x.abs()),
         Value::Currency(n) => Value::Currency(n.checked_abs().ok_or_else(of)?),
+        Value::Decimal(d) => Value::Decimal(d.abs()),
         // ORACLE: Abs of a Date - we return the Double.
         Value::Date(d) => Value::Double(d.abs()),
         other => Value::Double(other.to_f64()?.abs()),
@@ -1070,6 +1072,9 @@ fn f_sgn(args: &[Value]) -> Result<Value> {
     if v.is_null() {
         // ORACLE: Sgn(Null) - we return Null.
         return Ok(Value::Null);
+    }
+    if let Value::Decimal(d) = v {
+        return Ok(Value::Integer(if d.is_negative() { -1 } else { i16::from(!d.is_zero()) }));
     }
     let x = v.to_f64()?;
     Ok(Value::Integer(if x > 0.0 {
@@ -1104,6 +1109,7 @@ fn f_round(args: &[Value]) -> Result<Value> {
                 Value::Currency(q * unit)
             }
         }
+        Value::Decimal(d) => Value::Decimal(d.round(digits as u32)),
         // ORACLE: Round of a Date - we return a Double.
         other => Value::Double(format::round_f64(other.to_f64()?, digits)),
     })
@@ -1381,7 +1387,8 @@ fn is_numeric(v: &Value) -> bool {
         | Value::LongLong(_)
         | Value::Single(_)
         | Value::Double(_)
-        | Value::Currency(_) => true,
+        | Value::Currency(_)
+        | Value::Decimal(_) => true,
         Value::String(s) => parse_number(s).is_some(),
         _ => false,
     }

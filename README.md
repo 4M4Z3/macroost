@@ -14,7 +14,7 @@ documentation.
 | Crate | What it does |
 |---|---|
 | `macroost-project` (`crates/project`) | Reads and writes macro projects (compressed module streams, the `dir` stream, project metadata) from `.xlsm`, `.docm`, `.pptm` packages and legacy compound files. Writes source-only projects. |
-| `macroost-lang` (`crates/lang`) | The language: lexer, parser, interpreter, operators and standard library. Variants and coercion rules, `ByRef`/`ByVal`, arrays and `ReDim Preserve`, `With`, `Select Case`, every loop form, `GoSub`, `On Error Resume Next / GoTo / Resume`, classes with properties, user-defined types, events, `Collection` and a dictionary object. |
+| `macroost-lang` (`crates/lang`) | The language: lexer, parser, interpreter, operators and standard library. Variants and coercion rules, `ByRef`/`ByVal`, arrays and `ReDim Preserve`, `With`, `Select Case`, every loop form, `GoSub`, `On Error Resume Next / GoTo / Resume`, exact 96-bit `Decimal` arithmetic, classes with properties, user-defined types, events, `Collection` and a dictionary object. |
 | `macroost-sheet` (`crates/sheet`) | A spreadsheet object model (`Application`, `Workbook`, `Worksheet`, `Range`, `Names`, `WorksheetFunction`, protection, sort, filter, fill, find) over a `Workbook` trait, with an in-memory implementation and a formula evaluator. |
 | `macroost-xlsx` (`crates/xlsx`) | Loads and saves OOXML spreadsheets into the in-memory workbook, keeping everything it doesn't model intact on save. |
 | `macroost-doc` (`crates/doc`) | A word-processor object model (`Document`, `Range`, `Selection`, `Find`, `Tables`, `Bookmarks`) over a `Document` trait. |
@@ -52,7 +52,8 @@ only goes up.
 | Suite | Cases | Matching |
 |---|---|---|
 | Language: expressions (`lang`) | 194 | 194 |
-| Language: programs (`lang2`) | 40 | 39 (the Decimal type is not implemented) |
+| Language: programs (`lang2`) | 40 | 40 |
+| Language: Decimal type (`decimal`) | 70 | 70 |
 | Spreadsheet (`sheet1`–`sheet5`) | 464 | 464 |
 | Word processor (`doc`) | 280 | 280 |
 | Presentation (`slides`, `slides2`, `slides_window`) | 123 | 123 |

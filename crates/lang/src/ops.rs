@@ -8,6 +8,7 @@
 
 use std::cmp::Ordering;
 
+use crate::decimal::Decimal;
 use crate::error::{Result, RuntimeError};
 use crate::stdlib::datetime;
 use crate::value::{Value, parse_number, round_half_even};
@@ -84,6 +85,7 @@ pub fn negate(a: &Value) -> Result<Value> {
         Value::Single(n) => Value::Single(-n),
         Value::Double(n) => Value::Double(-n),
         Value::Currency(n) => Value::Currency(n.checked_neg().ok_or_else(RuntimeError::overflow)?),
+        Value::Decimal(d) => Value::Decimal(d.negate()),
         Value::Date(d) => Value::Date(-d),
         Value::String(_) => Value::Double(-a.to_f64()?),
         Value::Object(None) => return Err(RuntimeError::object_not_set()),
@@ -123,6 +125,7 @@ enum Kind {
     Double,
     Currency,
     Date,
+    Decimal,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
@@ -156,6 +159,7 @@ fn classify(v: &Value) -> Result<Class> {
         Value::Double(_) => Class::Num(Kind::Double),
         Value::Currency(_) => Class::Num(Kind::Currency),
         Value::Date(_) => Class::Num(Kind::Date),
+        Value::Decimal(_) => Class::Num(Kind::Decimal),
         // Unreachable after check_data; kept total without panicking.
         _ => return Err(RuntimeError::type_mismatch()),
     })
@@ -269,6 +273,10 @@ fn arithmetic(op: BinOp, a: &Value, b: &Value) -> Result<Value> {
     if ca == Class::Null || cb == Class::Null {
         return Ok(Value::Null);
     }
+    let decimal = ca == Class::Num(Kind::Decimal) || cb == Class::Num(Kind::Decimal);
+    if decimal && matches!(op, BinOp::Add | BinOp::Sub | BinOp::Mul | BinOp::Div) {
+        return decimal_arithmetic(op, a, b);
+    }
     match op {
         BinOp::Add => {
             match (ca, cb) {
@@ -302,6 +310,7 @@ fn arithmetic(op: BinOp, a: &Value, b: &Value) -> Result<Value> {
                     let q = div_round_half_even(p, 10_000);
                     Ok(Value::Currency(i64::try_from(q).map_err(|_| RuntimeError::overflow())?))
                 }
+                Kind::Decimal => decimal_arithmetic(op, a, b),
                 // ORACLE: Date * x - spec gives a Double declared type; we return Double.
                 Kind::Double | Kind::Date => double_value(num_of(a)? * num_of(b)?),
             }
@@ -379,7 +388,21 @@ fn add_sub(k: Kind, a: &Value, b: &Value, sub: bool) -> Result<Value> {
             Ok(Value::Currency(r.ok_or_else(RuntimeError::overflow)?))
         }
         Kind::Date => date_value(num_of(a)? + sign * num_of(b)?),
+        Kind::Decimal => decimal_arithmetic(if sub { BinOp::Sub } else { BinOp::Add }, a, b),
     }
+}
+
+/// `+ - * /` with a Decimal operand: the other operand converts to Decimal (Strings must look
+/// numeric) and the result is a Decimal.
+fn decimal_arithmetic(op: BinOp, a: &Value, b: &Value) -> Result<Value> {
+    let x = Decimal::from_value(a)?;
+    let y = Decimal::from_value(b)?;
+    Ok(Value::Decimal(match op {
+        BinOp::Add => Decimal::checked_add(x, y)?,
+        BinOp::Sub => Decimal::checked_sub(x, y)?,
+        BinOp::Mul => Decimal::checked_mul(x, y)?,
+        _ => Decimal::checked_div(x, y)?,
+    }))
 }
 
 fn div_round_half_even(p: i128, d: i128) -> i128 {
@@ -441,6 +464,15 @@ fn compare(a: &Value, b: &Value, text: bool) -> Result<Option<Ordering>> {
 /// otherwise the number is less than the string.
 fn compare_num_str(n: &Value, s: &Value) -> Result<Option<Ordering>> {
     let text = s.to_text()?;
+    if let Value::Decimal(x) = n {
+        return Ok(Some(match Decimal::parse(&text) {
+            Some(Ok(y)) => Decimal::compare(x, &y),
+            _ => match parse_number(&text) {
+                Some(y) => compare_f64(x.to_f64(), y)?,
+                None => Ordering::Less,
+            },
+        }));
+    }
     let parsed = match n {
         Value::Boolean(_) => match Value::str(text.as_str()).to_bool() {
             Ok(b) => Some(if b { -1.0 } else { 0.0 }),
@@ -469,6 +501,9 @@ fn compare_numbers(a: &Value, b: &Value, ca: Class, cb: Class) -> Result<Orderin
         return Ok(a.to_i64()?.cmp(&b.to_i64()?));
     }
     let has = |k: Kind| ca == Class::Num(k) || cb == Class::Num(k);
+    if has(Kind::Decimal) {
+        return Ok(Decimal::compare(&Decimal::from_value(a)?, &Decimal::from_value(b)?));
+    }
     if has(Kind::Date) {
         return compare_f64(a.to_f64()?, b.to_f64()?);
     }

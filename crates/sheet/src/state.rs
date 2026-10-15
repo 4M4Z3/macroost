@@ -538,7 +538,8 @@ pub(crate) fn cell_input(v: &Value, text_format: bool) -> Result<Input> {
         | Value::Long(_)
         | Value::LongLong(_)
         | Value::Single(_)
-        | Value::Double(_) => Input::Const(Value::Double(v.to_f64()?), None),
+        | Value::Double(_)
+        | Value::Decimal(_) => Input::Const(Value::Double(v.to_f64()?), None),
         Value::Currency(_) => Input::Const(Value::Double(v.to_f64()?), Some("$#,##0.00_);($#,##0.00)")),
         Value::Date(d) => {
             let fmt = if d.fract() == 0.0 {

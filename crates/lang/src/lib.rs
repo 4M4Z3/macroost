@@ -5,6 +5,7 @@
 
 pub mod ast;
 pub mod builtins;
+pub mod decimal;
 pub mod error;
 pub mod interp;
 pub mod lexer;

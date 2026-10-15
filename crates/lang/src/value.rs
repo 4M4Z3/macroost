@@ -6,6 +6,7 @@
 use std::cell::RefCell;
 use std::rc::Rc;
 
+use crate::decimal::Decimal;
 use crate::error::{Result, RuntimeError};
 use crate::object::ObjectRef;
 
@@ -26,6 +27,8 @@ pub enum Value {
     Double(f64),
     /// Fixed point, scaled by 10,000.
     Currency(i64),
+    /// Exact decimal (96-bit mantissa, scale 0..=28); only ever held in a Variant.
+    Decimal(Decimal),
     /// Serial date: whole days since 1899-12-30, fraction = time of day.
     Date(f64),
     String(Rc<str>),
@@ -49,6 +52,7 @@ impl std::fmt::Debug for Value {
             Value::Single(n) => write!(f, "Single({n})"),
             Value::Double(n) => write!(f, "Double({n})"),
             Value::Currency(n) => write!(f, "Currency({})", *n as f64 / 10_000.0),
+            Value::Decimal(d) => write!(f, "Decimal({d})"),
             Value::Date(d) => write!(f, "Date({d})"),
             Value::String(s) => write!(f, "{s:?}"),
             Value::Object(None) => write!(f, "Nothing"),
@@ -224,6 +228,7 @@ impl Value {
             Value::Single(_) => "Single".into(),
             Value::Double(_) => "Double".into(),
             Value::Currency(_) => "Currency".into(),
+            Value::Decimal(_) => "Decimal".into(),
             Value::Date(_) => "Date".into(),
             Value::String(_) => "String".into(),
             Value::Object(None) => "Nothing".into(),
@@ -251,6 +256,7 @@ impl Value {
             Value::Object(_) => 9,
             Value::Error(_) => 10,
             Value::Boolean(_) => 11,
+            Value::Decimal(_) => 14,
             Value::Byte(_) => 17,
             Value::LongLong(_) => 20,
             Value::Array(_) => 8192 + 12,
@@ -268,6 +274,7 @@ impl Value {
                 | Value::Single(_)
                 | Value::Double(_)
                 | Value::Currency(_)
+                | Value::Decimal(_)
                 | Value::Date(_)
                 | Value::Empty
         )
@@ -291,6 +298,7 @@ impl Value {
             Value::Single(n) => f64::from(*n),
             Value::Double(n) => *n,
             Value::Currency(n) => *n as f64 / 10_000.0,
+            Value::Decimal(d) => d.to_f64(),
             Value::Date(d) => *d,
             Value::String(s) => parse_number(s).ok_or_else(RuntimeError::type_mismatch)?,
             Value::Null => return Err(RuntimeError::standard(94)),
@@ -306,6 +314,7 @@ impl Value {
             Value::Long(n) => Ok(i64::from(*n)),
             Value::Integer(n) => Ok(i64::from(*n)),
             Value::Byte(n) => Ok(i64::from(*n)),
+            Value::Decimal(d) => d.to_i64(),
             _ => {
                 let r = round_half_even(self.to_f64()?);
                 if (-9.223_372_036_854_776e18..9.223_372_036_854_776e18).contains(&r) {
@@ -355,6 +364,7 @@ impl Value {
             Value::Single(n) => format_float(f64::from(*n), 7),
             Value::Double(n) => format_float(*n, 15),
             Value::Currency(n) => format_currency(*n),
+            Value::Decimal(d) => d.to_string(),
             Value::Date(d) => format_date(*d),
             Value::String(s) => s.to_string(),
             Value::Object(Some(o)) => return o.default_value()?.to_text(),

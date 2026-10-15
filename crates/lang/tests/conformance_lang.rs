@@ -125,5 +125,11 @@ fn language_cases_match_the_host() {
 #[test]
 fn program_cases_match_the_host() {
     let (pass, _) = check("lang2");
-    assert!(pass >= floor("lang2", 39), "lang2: {pass} below floor");
+    assert!(pass >= floor("lang2", 40), "lang2: {pass} below floor");
+}
+
+#[test]
+fn decimal_cases_match_the_host() {
+    let (pass, total) = check("decimal");
+    assert!(pass >= floor("decimal", 70), "decimal: {pass}/{total} below floor");
 }
